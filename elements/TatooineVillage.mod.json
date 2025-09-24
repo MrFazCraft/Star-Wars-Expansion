@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "tatooinevillage",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 64,
+    "separation": 16,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TatooineDesert"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 63,
+    "startHeightMax": 64,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

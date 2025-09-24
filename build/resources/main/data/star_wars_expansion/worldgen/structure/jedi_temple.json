@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "star_wars_expansion:jedi_temple",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 63
+    },
+    "max_inclusive": {
+      "absolute": 64
+    }
+  },
+  "biomes": "star_wars_expansion:tatooine_desert",
+  "use_expansion_hack": false
+}

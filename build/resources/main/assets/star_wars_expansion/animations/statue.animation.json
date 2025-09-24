@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"vector": [-44.31081, -26.06465, -24.23178],
+						"easing": "linear"
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"vector": [-41.81081, 26.06465, 24.23178],
+						"easing": "linear"
+					}
+				},
+				"lightsaber": {
+					"position": {
+						"vector": [1, -0.5, 0],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Weaponsmith Trader",
+    "pointOfInterest": {
+      "value": "CUSTOM:ModernCrate2"
+    },
+    "actionSound": {
+      "value": "block.anvil.step"
+    },
+    "hat": "None",
+    "professionTextureFile": "placeholder.png",
+    "zombifiedProfessionTextureFile": "placeholder.png"
+  }
+}

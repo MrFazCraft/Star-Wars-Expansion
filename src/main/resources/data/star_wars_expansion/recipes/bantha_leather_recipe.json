@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "star_wars_expansion:bantha_leather"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 4
+  }
+}

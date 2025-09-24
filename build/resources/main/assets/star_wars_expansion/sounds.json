@@ -1,0 +1,266 @@
+{
+  "swing": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:swing1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:swing2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:swing3",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:swing4",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_on": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:on",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_off": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:off",
+        "stream": false
+      }
+    ]
+  },
+  "mechdroid_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:mechdroiddeath",
+        "stream": false
+      }
+    ]
+  },
+  "mechdroid_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:mechdroididle1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:mechdroididle2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:mechdroididle3",
+        "stream": false
+      }
+    ]
+  },
+  "protocoldroid_hurt": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:protocoldroidhurt",
+        "stream": false
+      }
+    ]
+  },
+  "gonk_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:gonk_idle",
+        "stream": false
+      }
+    ]
+  },
+  "blaster_shot": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:blaster",
+        "stream": false
+      }
+    ]
+  },
+  "mousedroid_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:mousedroidle",
+        "stream": false
+      }
+    ]
+  },
+  "rodian_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:rodiandeath",
+        "stream": false
+      }
+    ]
+  },
+  "rodian_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:rodianidle",
+        "stream": false
+      }
+    ]
+  },
+  "rodian_hurt": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:rodianhurt",
+        "stream": false
+      }
+    ]
+  },
+  "ithorian_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:ithorian_idle_1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:ithorian_idle_2",
+        "stream": false
+      }
+    ]
+  },
+  "ithorian_hurt": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:ithorian_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ithorian_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:ithorian_death",
+        "stream": false
+      }
+    ]
+  },
+  "jawa_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:jawa_idle1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:jawa_idle2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:jawa_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "jawa_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:jawa_death",
+        "stream": false
+      }
+    ]
+  },
+  "twilek_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:twilek_idle2",
+        "stream": false
+      }
+    ]
+  },
+  "tusken_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:tusken_idle",
+        "stream": false
+      }
+    ]
+  },
+  "tusken_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:tusken_death",
+        "stream": false
+      }
+    ]
+  },
+  "bantha_hurt": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:bantha_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "bantha_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:bantha_idle1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bantha_idle2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bantha_idle3",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bantha_idle4",
+        "stream": false
+      }
+    ]
+  },
+  "droid_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:droid_idle",
+        "stream": false
+      }
+    ]
+  },
+  "spaceship_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:spaceship_idle",
+        "stream": false
+      }
+    ]
+  },
+  "westar_shot": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:westar",
+        "stream": false
+      }
+    ]
+  },
+  "tauntaun_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:tauntaun_death",
+        "stream": false
+      }
+    ]
+  },
+  "tauntaun_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:tauntaun_idle_1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:tauntaun_idle_2",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "star_wars_expansion:broken_pod_tatooine_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 1255499226
+  }
+}

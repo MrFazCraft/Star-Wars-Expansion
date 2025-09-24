@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "star_wars_expansion:aurodium_ore",
+    "star_wars_expansion:hoth_stone",
+    "star_wars_expansion:copper_sandstone_ore",
+    "star_wars_expansion:holocron",
+    "star_wars_expansion:statue",
+    "star_wars_expansion:modern_bookshelf",
+    "star_wars_expansion:quadanium_ore",
+    "star_wars_expansion:rubber_ore",
+    "star_wars_expansion:cantina_light",
+    "star_wars_expansion:modern_slab",
+    "star_wars_expansion:modern_stairs",
+    "star_wars_expansion:modern_pillar",
+    "star_wars_expansion:control_panel",
+    "star_wars_expansion:workspace_bench",
+    "star_wars_expansion:metal_slab",
+    "star_wars_expansion:metal_stairs",
+    "star_wars_expansion:metal_block",
+    "star_wars_expansion:doonium_ore",
+    "star_wars_expansion:moisture_vaporator",
+    "star_wars_expansion:modern_lantern",
+    "star_wars_expansion:tatooine_door",
+    "star_wars_expansion:tatooine_sandstone_wall",
+    "star_wars_expansion:tatooine_sandstone_slab",
+    "star_wars_expansion:tatooine_sandstone_stairs",
+    "star_wars_expansion:tatooine_sandstone"
+  ]
+}

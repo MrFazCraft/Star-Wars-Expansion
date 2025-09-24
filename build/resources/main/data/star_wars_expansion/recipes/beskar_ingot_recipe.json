@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "star_wars_expansion:doonium_ingot"
+    },
+    {
+      "item": "star_wars_expansion:doonium_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "star_wars_expansion:beskar_ingot",
+    "count": 1
+  }
+}

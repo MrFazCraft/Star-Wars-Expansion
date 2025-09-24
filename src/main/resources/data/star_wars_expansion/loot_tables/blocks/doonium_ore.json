@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "star_wars_expansion:blocks/doonium_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "star_wars_expansion:doonium_ore"
+        }
+      ]
+    }
+  ]
+}

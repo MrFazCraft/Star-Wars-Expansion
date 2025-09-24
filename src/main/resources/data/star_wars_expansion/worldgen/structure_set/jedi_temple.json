@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "star_wars_expansion:jedi_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 75,
+    "separation": 60,
+    "salt": 303788701
+  }
+}

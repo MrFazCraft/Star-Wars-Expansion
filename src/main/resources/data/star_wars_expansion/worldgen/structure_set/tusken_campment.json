@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "star_wars_expansion:tusken_campment",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 8,
+    "salt": 1023797182
+  }
+}

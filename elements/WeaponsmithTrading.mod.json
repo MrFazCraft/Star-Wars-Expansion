@@ -1,0 +1,370 @@
+{
+  "_fv": 73,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 24,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:DooniumArmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 24,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:DooniumArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Vibroblade"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:VibroAxe"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice2": 48,
+            "offer": {
+              "value": "CUSTOM:StunBaton"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlasterE11"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 25,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DL44"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 30,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Westar34"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 35,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EE3"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Plastoid"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CloneArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Plastoid"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CloneArmor.body"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Plastoid"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CloneArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:BanthaLeather"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:KryknaString"
+            },
+            "countPrice2": 15,
+            "offer": {
+              "value": "CUSTOM:BrownJediClothes.body"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 35,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BanthaLeather"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:KryknaString"
+            },
+            "countPrice2": 15,
+            "offer": {
+              "value": "CUSTOM:GrayJediClothes.body"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 35,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:BanthaLeather"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:KryknaString"
+            },
+            "countPrice2": 15,
+            "offer": {
+              "value": "CUSTOM:BlackJediClothes.body"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 35,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:WeaponsmithTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:StabilizerMask.helmet"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 45,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DooniumIngot"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "CUSTOM:GalacticCreditGold"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:InterfaceBand.helmet"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 45,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

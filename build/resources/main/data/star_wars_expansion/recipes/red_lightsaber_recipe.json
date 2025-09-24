@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "star_wars_expansion:saber_emitter"
+    },
+    "b": {
+      "item": "star_wars_expansion:kyber_crystal_red"
+    },
+    "c": {
+      "item": "star_wars_expansion:saber_handle"
+    }
+  },
+  "result": {
+    "item": "star_wars_expansion:red_lightsaber_closed",
+    "count": 1
+  }
+}

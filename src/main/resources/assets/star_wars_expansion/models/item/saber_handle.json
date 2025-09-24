@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "star_wars_expansion:item/saber_handle"
+  }
+}

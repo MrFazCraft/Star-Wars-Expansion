@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "star_wars_expansion:custom/control_panel_particle"
+    },
+    "facing=east": {
+      "model": "star_wars_expansion:custom/control_panel_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "star_wars_expansion:custom/control_panel_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "star_wars_expansion:custom/control_panel_particle",
+      "y": 270
+    }
+  }
+}

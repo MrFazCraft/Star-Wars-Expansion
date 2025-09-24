@@ -1,0 +1,52 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "button.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceshipOverlayCondition"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 9,
+          "y": 211,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_z",
+          "text": {
+            "fixedValue": "Z"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SpaceshipOverlayCondition"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 16,
+          "y": 217,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

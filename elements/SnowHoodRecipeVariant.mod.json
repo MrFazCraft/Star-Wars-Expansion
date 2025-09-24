@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TauntaunLeather"
+      },
+      {
+        "value": "CUSTOM:TauntaunLeather"
+      },
+      {
+        "value": "CUSTOM:TauntaunLeather"
+      },
+      {
+        "value": "CUSTOM:TauntaunLeather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TauntaunLeather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SnowSuit.helmet"
+    },
+    "name": "snow_hood_recipe_variant",
+    "namespace": "mod"
+  }
+}

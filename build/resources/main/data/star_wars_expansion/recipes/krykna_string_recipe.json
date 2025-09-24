@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "star_wars_expansion:krykna_string"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

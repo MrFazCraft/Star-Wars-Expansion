@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "star_wars_expansion:block/aurodium_ore",
+    "particle": "star_wars_expansion:block/aurodium_ore"
+  },
+  "render_type": "cutout_mipped"
+}

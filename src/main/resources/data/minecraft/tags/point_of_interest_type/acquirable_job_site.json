@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "star_wars_expansion:butcher_trader",
+    "star_wars_expansion:weaponsmith_trader",
+    "star_wars_expansion:lumberjack_trader",
+    "star_wars_expansion:spaceship_trader",
+    "star_wars_expansion:droid_trader",
+    "star_wars_expansion:miner_trader"
+  ]
+}

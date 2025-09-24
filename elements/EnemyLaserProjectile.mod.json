@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:KyberCrystalRed"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:blaster_shot"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 2.0,
+    "knockback": 0,
+    "entityModel": "Modellaser",
+    "customModelTexture": "laser_projectile.png",
+    "modelWidth": 0.19999999999999998,
+    "modelHeight": 0.19999999999999998,
+    "onFlyingTick": {
+      "name": "LaserProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

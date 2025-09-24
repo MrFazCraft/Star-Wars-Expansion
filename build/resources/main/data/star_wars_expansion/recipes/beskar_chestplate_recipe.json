@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "star_wars_expansion:clone_armor_chestplate"
+  },
+  "addition": {
+    "item": "star_wars_expansion:beskar_ingot"
+  },
+  "result": {
+    "item": "star_wars_expansion:beskar_armor_chestplate"
+  }
+}

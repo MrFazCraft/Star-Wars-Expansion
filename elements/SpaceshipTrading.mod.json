@@ -1,0 +1,169 @@
+{
+  "_fv": 73,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:SpaceshipTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "CUSTOM:LandspeederItem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "CUSTOM:EscapePodItem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:SpaceshipTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:XWingItem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:SpaceshipTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 20,
+            "offer": {
+              "value": "CUSTOM:SpeederBikeItem"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 35,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:SpaceshipTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:TIEFighterItem"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 35,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:ButcherTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "CUSTOM:ATSTItem"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 60,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:QuadaniumIngot"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SnowspeederItem"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 60,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

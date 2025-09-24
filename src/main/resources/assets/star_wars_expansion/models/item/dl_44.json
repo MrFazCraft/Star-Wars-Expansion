@@ -1,0 +1,6 @@
+{
+  "parent": "star_wars_expansion:displaysettings/dl44",
+  "textures": {
+    "layer0": "star_wars_expansion:item/dl44"
+  }
+}

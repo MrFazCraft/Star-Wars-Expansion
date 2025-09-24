@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_expansion:displaysettings/holocron",
+  "textures": {
+    "particle": "star_wars_expansion:block/water_vaporizer_block"
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_expansion:displaysettings/panel",
+  "textures": {
+    "particle": "star_wars_expansion:block/bench_break"
+  }
+}

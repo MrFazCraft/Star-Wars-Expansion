@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 0.24,
+			"override_previous_animation": true,
+			"bones": {
+				"pod": {
+					"position": {
+						"vector": [0, 0, 0],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"down": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"pod": {
+					"rotation": {
+						"vector": [90, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, -21, 0],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

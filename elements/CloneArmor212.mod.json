@@ -1,0 +1,100 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "clone_helmet_item_212",
+    "enableBody": true,
+    "textureBody": "clone_chestplate_item_212",
+    "enableLeggings": true,
+    "textureLeggings": "clone_leggins_item_212",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TrooperTab"
+      }
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "Clone Trooper 212st Helmet",
+    "bodyName": "Clone Trooper 212st Chestplate",
+    "leggingsName": "Clone Trooper 212st Leggings",
+    "bootsName": "Brown Jedi Clothes Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelclonebase",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "clone212.png",
+    "bodyModelName": "Modelclonebase",
+    "bodyModelPart": "body",
+    "armsModelPartL": "rightArm",
+    "armsModelPartR": "leftArm",
+    "bodyModelTexture": "clone212.png",
+    "leggingsModelName": "Modelclonebase",
+    "leggingsModelPartL": "rightLeg",
+    "leggingsModelPartR": "leftLeg",
+    "leggingsModelTexture": "clone212.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 0,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": []
+  }
+}

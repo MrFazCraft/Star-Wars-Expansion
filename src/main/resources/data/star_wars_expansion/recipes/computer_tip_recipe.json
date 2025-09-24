@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "star_wars_expansion:doonium_ingot"
+    }
+  },
+  "result": {
+    "item": "star_wars_expansion:computer_tip",
+    "count": 8
+  }
+}

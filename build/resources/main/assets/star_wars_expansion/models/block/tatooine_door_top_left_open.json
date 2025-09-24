@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "star_wars_expansion:block/tech_door_bottom",
+    "bottom": "star_wars_expansion:block/tech_door_bottom",
+    "top": "star_wars_expansion:block/tech_door_top"
+  },
+  "render_type": "cutout_mipped"
+}

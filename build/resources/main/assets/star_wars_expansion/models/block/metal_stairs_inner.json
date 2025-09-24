@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "star_wars_expansion:block/metal_block",
+    "bottom": "star_wars_expansion:block/metal_block",
+    "top": "star_wars_expansion:block/metal_block",
+    "side": "star_wars_expansion:block/metal_block"
+  },
+  "render_type": "solid"
+}

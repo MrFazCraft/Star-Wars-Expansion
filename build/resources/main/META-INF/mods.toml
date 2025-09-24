@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="star_wars_expansion"
+version="1.1.0"
+displayName="Star Wars Expansion"
+displayURL="https://www.curseforge.com/members/mrfazcraft/projects"
+logoFile="logo.png"
+credits="https://www.curseforge.com/members/mrfazcraft/projects"
+authors="FazBrick Studios"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.star_wars_expansion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.star_wars_expansion]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.star_wars_expansion]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

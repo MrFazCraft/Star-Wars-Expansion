@@ -1,0 +1,23 @@
+{
+  "_fv": 73,
+  "_type": "particle",
+  "definition": {
+    "texture": "laser_flash",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.19999999999999998,
+    "height": 0.19999999999999998,
+    "scale": {
+      "fixedValue": 2.0
+    },
+    "speedFactor": 1.0,
+    "gravity": 0.0,
+    "maxAge": 2,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

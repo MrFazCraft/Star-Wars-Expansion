@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "star_wars_expansion:block/tatooine_sandstone_slab"
+    },
+    "type=top": {
+      "model": "star_wars_expansion:block/tatooine_sandstone_slab_top"
+    },
+    "type=double": {
+      "model": "star_wars_expansion:block/tatooine_sandstone_slab_full"
+    }
+  }
+}

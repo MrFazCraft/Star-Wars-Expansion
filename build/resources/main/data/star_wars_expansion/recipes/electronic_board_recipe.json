@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cc"
+  ],
+  "key": {
+    "a": {
+      "item": "star_wars_expansion:quadanium_ingot"
+    },
+    "b": {
+      "item": "star_wars_expansion:rubber"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "star_wars_expansion:electronic_board",
+    "count": 2
+  }
+}

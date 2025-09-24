@@ -1,0 +1,180 @@
+{
+  "_fv": 73,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:DroidTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:R2D2"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:R4P17"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:R2KT"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:DroidTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:C3PO"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:TC14"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 48,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:I82"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:DroidTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:GNK"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:DroidTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GalacticCredit"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": "CUSTOM:ElectronicBoard"
+            },
+            "countPrice2": 51,
+            "offer": {
+              "value": "CUSTOM:MSE6"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

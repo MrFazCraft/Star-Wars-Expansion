@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "star_wars_expansion:tatooine_desert",
+  "features": "star_wars_expansion:quadanium_ore",
+  "step": "underground_ores"
+}

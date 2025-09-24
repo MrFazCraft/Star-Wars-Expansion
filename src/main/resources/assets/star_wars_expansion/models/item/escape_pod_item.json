@@ -1,0 +1,6 @@
+{
+  "parent": "star_wars_expansion:displaysettings/pod",
+  "textures": {
+    "layer0": "star_wars_expansion:item/escapepod"
+  }
+}

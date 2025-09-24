@@ -1,0 +1,15 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Spaceship Shoot ",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "SpaceshipShootKeyOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "SpaceshipShootKeyOnKeyReleased"
+    }
+  }
+}

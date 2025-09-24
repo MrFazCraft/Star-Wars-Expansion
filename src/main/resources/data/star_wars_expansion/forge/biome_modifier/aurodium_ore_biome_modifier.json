@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "star_wars_expansion:hoth_plains",
+  "features": "star_wars_expansion:aurodium_ore",
+  "step": "underground_ores"
+}

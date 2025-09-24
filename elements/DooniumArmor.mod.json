@@ -1,0 +1,103 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "doonium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "doonium_leggins",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "JediClothesFallProcedure"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TrooperTab"
+      }
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "",
+    "bodyName": "§eDoonium Chesplate",
+    "leggingsName": "§eDoonium Leggins",
+    "bootsName": "",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modeldooniumarmor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "rightArm",
+    "armsModelPartR": "leftArm",
+    "bodyModelTexture": "dooniumarmor.png",
+    "leggingsModelName": "Modeldooniumarmor",
+    "leggingsModelPartL": "rightLeg",
+    "leggingsModelPartR": "leftLeg",
+    "leggingsModelTexture": "dooniumarmor.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 0,
+    "damageValueHelmet": 0,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 0,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": []
+  }
+}

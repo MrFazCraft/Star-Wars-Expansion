@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_wars_expansion:block/modern_bookshelf_top",
+    "up": "star_wars_expansion:block/modern_bookshelf_top",
+    "north": "star_wars_expansion:block/modern_bookshelf",
+    "east": "star_wars_expansion:block/modern_bookshelf",
+    "south": "star_wars_expansion:block/modern_bookshelf",
+    "west": "star_wars_expansion:block/modern_bookshelf",
+    "particle": "star_wars_expansion:block/modern_bookshelf_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Butcher Trader",
+    "pointOfInterest": {
+      "value": "CUSTOM:ModernCrate"
+    },
+    "actionSound": {
+      "value": "block.anvil.step"
+    },
+    "hat": "None",
+    "professionTextureFile": "placeholder.png",
+    "zombifiedProfessionTextureFile": "placeholder.png"
+  }
+}

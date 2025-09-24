@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "star_wars_expansion:block/tatooine_stone",
+    "bottom": "star_wars_expansion:block/tatooine_stone",
+    "top": "star_wars_expansion:block/tatooine_stone",
+    "side": "star_wars_expansion:block/tatooine_stone"
+  },
+  "render_type": "cutout_mipped"
+}

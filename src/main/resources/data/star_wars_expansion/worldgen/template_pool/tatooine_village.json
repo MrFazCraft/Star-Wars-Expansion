@@ -1,0 +1,17 @@
+{
+  "name": "star_wars_expansion:tatooine_village",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "star_wars_expansion:tatooinevillage",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

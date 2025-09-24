@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "star_wars_expansion:tauntaun_leather"
+    }
+  },
+  "result": {
+    "item": "star_wars_expansion:snow_suit_chestplate",
+    "count": 1
+  }
+}

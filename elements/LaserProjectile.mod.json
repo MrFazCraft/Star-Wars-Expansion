@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:KyberCrystalRed"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 6.0,
+    "damage": 5.0,
+    "knockback": 0,
+    "entityModel": "Modellaser",
+    "customModelTexture": "laser_projectile.png",
+    "modelWidth": 0.30000000000000004,
+    "modelHeight": 0.30000000000000004,
+    "onHitsBlock": {
+      "name": "LaserProjectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "LaserProjectileProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "LaserProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

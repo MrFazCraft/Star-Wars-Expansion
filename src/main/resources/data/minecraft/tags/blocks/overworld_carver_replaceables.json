@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blue_ice",
+    "star_wars_expansion:hoth_snow",
+    "star_wars_expansion:tatooine_sandstone",
+    "star_wars_expansion:tatooine_sand"
+  ]
+}

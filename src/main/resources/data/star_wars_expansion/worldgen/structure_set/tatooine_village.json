@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "star_wars_expansion:tatooine_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 16,
+    "salt": 833713297
+  }
+}

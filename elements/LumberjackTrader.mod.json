@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Lumberjack Trader",
+    "pointOfInterest": {
+      "value": "CUSTOM:ModernCrate3"
+    },
+    "actionSound": {
+      "value": "block.anvil.step"
+    },
+    "hat": "None",
+    "professionTextureFile": "placeholder.png",
+    "zombifiedProfessionTextureFile": "placeholder.png"
+  }
+}

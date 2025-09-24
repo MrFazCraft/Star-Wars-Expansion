@@ -1,0 +1,272 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_tatooine",
+          "image": "tatooine.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TravelTatooineProcedure"
+          },
+          "x": 68,
+          "y": 45,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_endor",
+          "image": "endor.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TravelDenyProcedure"
+          },
+          "x": 293,
+          "y": 104,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_kashyyyk",
+          "image": "kashyyyk.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TravelDenyProcedure"
+          },
+          "x": 215,
+          "y": 165,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_hoth",
+          "image": "hoth.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TravelHothProcedure"
+          },
+          "x": 162,
+          "y": 80,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sky_background_scaled.png",
+          "use1Xscale": true,
+          "x": 205,
+          "y": -237,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sky_background_scaled.png",
+          "use1Xscale": true,
+          "x": -318,
+          "y": 127,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sky_background_scaled.png",
+          "use1Xscale": true,
+          "x": 222,
+          "y": 127,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sky_background_scaled.png",
+          "use1Xscale": true,
+          "x": -318,
+          "y": -237,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sun_planet.png",
+          "use1Xscale": false,
+          "x": 338,
+          "y": -42,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_earth1png",
+          "image": "earth-1.png.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TravelEarth"
+          },
+          "x": 152,
+          "y": 40,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tatooine_small.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hoth_small.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 187,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "kashyyyk_small.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 204,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "endor_small.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 221,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "earth-1.png.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_earth",
+          "text": {
+            "fixedValue": "Earth"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 23,
+          "y": 153,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tatooine",
+          "text": {
+            "fixedValue": "Tatooine"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 23,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hoth",
+          "text": {
+            "fixedValue": "Hoth"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 186,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_kashyyyk",
+          "text": {
+            "fixedValue": "Kashyyyk"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 203,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_endor",
+          "text": {
+            "fixedValue": "Endor"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 220,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

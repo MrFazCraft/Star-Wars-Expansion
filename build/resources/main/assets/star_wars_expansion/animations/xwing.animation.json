@@ -1,0 +1,82 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 0.24,
+			"override_previous_animation": true,
+			"bones": {
+				"xwing": {
+					"position": {
+						"vector": [0, -6.5, 0],
+						"easing": "linear"
+					}
+				},
+				"wing": {
+					"rotation": {
+						"vector": [0, 0, 30],
+						"easing": "linear"
+					}
+				},
+				"wing3": {
+					"rotation": {
+						"vector": [0, 0, -30],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [2, 0, -1],
+						"easing": "linear"
+					}
+				},
+				"wing2": {
+					"rotation": {
+						"vector": [0, 0, -30],
+						"easing": "linear"
+					}
+				},
+				"wing4": {
+					"rotation": {
+						"vector": [0, 0, 30],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [-2, 0, -1],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"walk": {
+			"loop": true,
+			"animation_length": 0.04,
+			"override_previous_animation": true
+		},
+		"right": {
+			"loop": true,
+			"animation_length": 0.04,
+			"override_previous_animation": true,
+			"bones": {
+				"xwing": {
+					"rotation": {
+						"vector": [0, 0, -25],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"left": {
+			"loop": true,
+			"animation_length": 0.04,
+			"override_previous_animation": true,
+			"bones": {
+				"xwing": {
+					"rotation": {
+						"vector": [0, 0, 25],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

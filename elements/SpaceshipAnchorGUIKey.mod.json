@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Open Space Travel",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "SpaceshipAnchorGUIKeyOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "star_wars_expansion:block/modern_pillar",
+    "bottom": "star_wars_expansion:block/modern_pillar",
+    "top": "star_wars_expansion:block/modern_pillar",
+    "side": "star_wars_expansion:block/modern_pillar"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "star_wars_expansion:displaysettings/speederitem",
+  "textures": {
+    "layer0": "star_wars_expansion:item/speeder"
+  }
+}
