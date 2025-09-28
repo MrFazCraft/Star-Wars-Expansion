@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "star_wars_expansion:block/grid_metal_block"
+    }
+  }
+}

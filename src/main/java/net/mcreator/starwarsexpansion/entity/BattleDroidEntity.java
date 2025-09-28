@@ -1,3 +1,4 @@
+
 package net.mcreator.starwarsexpansion.entity;
 
 import software.bernie.geckolib.util.GeckoLibUtil;
@@ -20,6 +21,7 @@ import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.Goal;
@@ -181,20 +183,18 @@ public class BattleDroidEntity extends Monster implements RangedAttackMob, GeoEn
 				this.mob.getNavigation().moveTo(this.target, this.speedModifier);
 			}
 			this.mob.getLookControl().setLookAt(this.target, 30.0F, 30.0F);
-
 			if (--this.attackTime == 0) {
 				if (!flag) {
 					((BattleDroidEntity) rangedAttackMob).entityData.set(SHOOT, false);
 					return;
 				}
 				((BattleDroidEntity) rangedAttackMob).entityData.set(SHOOT, true);
-
-				// Siempre con puntería perfecta
-				this.rangedAttackMob.performRangedAttack(this.target, 1.0F);
-
-				this.attackTime = this.attackIntervalMin;
+				float f = (float) Math.sqrt(d0) / this.attackRadius;
+				float f1 = Mth.clamp(f, 0.1F, 1.0F);
+				this.rangedAttackMob.performRangedAttack(this.target, f1);
+				this.attackTime = Mth.floor(f * (float) (this.attackIntervalMax - this.attackIntervalMin) + (float) this.attackIntervalMin);
 			} else if (this.attackTime < 0) {
-				this.attackTime = this.attackIntervalMin;
+				this.attackTime = Mth.floor(Mth.lerp(Math.sqrt(d0) / (double) this.attackRadius, (double) this.attackIntervalMin, (double) this.attackIntervalMax));
 			} else
 				((BattleDroidEntity) rangedAttackMob).entityData.set(SHOOT, false);
 		}
@@ -270,7 +270,6 @@ public class BattleDroidEntity extends Monster implements RangedAttackMob, GeoEn
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		// Siempre dispara directo y sin fallo
 		EnemyLaserProjectileEntity.shoot(this, target);
 	}
 
@@ -280,7 +279,7 @@ public class BattleDroidEntity extends Monster implements RangedAttackMob, GeoEn
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 29);
+		builder = builder.add(Attributes.MAX_HEALTH, 30);
 		builder = builder.add(Attributes.ARMOR, 0.3);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
@@ -290,6 +289,7 @@ public class BattleDroidEntity extends Monster implements RangedAttackMob, GeoEn
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
+
 					&& !this.isAggressive()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("walk"));
 			}

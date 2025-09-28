@@ -254,6 +254,11 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> HOTH_STONE = block(StarWarsExpansionModBlocks.HOTH_STONE);
 	public static final RegistryObject<Item> AURODIUM_ORE = block(StarWarsExpansionModBlocks.AURODIUM_ORE);
 	public static final RegistryObject<Item> AURODIUM_INGOT = REGISTRY.register("aurodium_ingot", () -> new AurodiumIngotItem());
+	public static final RegistryObject<Item> GAMORREAN_SPAWN_EGG = REGISTRY.register("gamorrean_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.GAMORREAN, -12293321, -10732258, new Item.Properties()));
+	public static final RegistryObject<Item> HUTT_SPAWN_EGG = REGISTRY.register("hutt_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.HUTT, -13219786, -3823007, new Item.Properties()));
+	public static final RegistryObject<Item> METAL_TRAPDOOR = block(StarWarsExpansionModBlocks.METAL_TRAPDOOR);
+	public static final RegistryObject<Item> GRID_METAL_BLOCK = block(StarWarsExpansionModBlocks.GRID_METAL_BLOCK);
+	public static final RegistryObject<Item> PIRATE_SPAWN_EGG = REGISTRY.register("pirate_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.PIRATE, -4671429, -10840260, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

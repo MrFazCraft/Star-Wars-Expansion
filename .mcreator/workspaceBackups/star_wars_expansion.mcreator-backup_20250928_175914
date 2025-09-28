@@ -1,0 +1,5592 @@
+{
+  "mod_elements": [
+    {
+      "name": "BrownJediClothes",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_jedi_clothes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BrownJediClothesItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/brown_jedi_clothes_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayJediClothes",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_jedi_clothes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/GrayJediClothesItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/gray_jedi_clothes_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackJediClothes",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_jedi_clothes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/black_jedi_clothes_chestplate.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/BlackJediClothesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/CloneArmorItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_chestplate.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmor501",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_501",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_501_chestplate.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_501_helmet.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/CloneArmor501Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_501_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmor212",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_212",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_212_chestplate.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/CloneArmor212Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_212_leggings.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_212_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmor41",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_41",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_41_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_41_chestplate.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/clone_armor_41_leggings.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/CloneArmor41Item.java"
+        ]
+      }
+    },
+    {
+      "name": "ForceTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TrooperTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trooper_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SithClothes",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sith_clothes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/SithClothesItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/sith_clothes_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BlueLightsaberClosedItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/blue_lightsaber_closed.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberOpenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_open_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlueLightsaberOpenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlueLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberOpenLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_open_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlueLightsaberOpenLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/RedLightsaberClosedItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/red_lightsaber_closed.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/green_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/GreenLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/YellowLightsaberClosedItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/yellow_lightsaber_closed.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/purple_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/PurpleLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RLOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rl_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/RLOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GLOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gl_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/GLOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YLOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yl_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/YLOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/PLOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RLClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rl_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/RLCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GLClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gl_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/GLCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YLClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yl_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/YLCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PLClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pl_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/PLCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalBlue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/kyber_crystal_blue.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/KyberCrystalBlueItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalRed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/KyberCrystalRedItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/kyber_crystal_red.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalGreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_green",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/kyber_crystal_green.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/KyberCrystalGreenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalYellow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/KyberCrystalYellowItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/kyber_crystal_yellow.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalPurple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/KyberCrystalPurpleItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/kyber_crystal_purple.json"
+        ]
+      }
+    },
+    {
+      "name": "DooniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doonium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/doonium_ingot.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/DooniumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemsTAB",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SaberHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saber_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/saber_handle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/SaberHandleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GrandMasterJediClothes",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grand_master_jedi_clothes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/grand_master_jedi_clothes_chestplate.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/GrandMasterJediClothesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DoubleJumpKeyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_jump_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleJumpKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleJumpKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_jump_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/network/DoubleJumpKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "RestoreJumpProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restore_jump_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/RestoreJumpProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JediClothesFallProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jedi_clothes_fall_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/JediClothesFallProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetupAnimations",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setup_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SetupAnimationsProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BlueLightsaberOpenToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_open_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlueLightsaberOpenToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AstromechDroidBlue",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astromech_droid_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/AstromechDroidBlueEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/AstromechDroidBlueModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/astromech_droid_blue_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/AstromechDroidBlueRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/layer/AstromechDroidBlueLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtocolDroidGold",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protocol_droid_gold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/ProtocolDroidGoldRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/ProtocolDroidGoldEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/protocol_droid_gold_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/ProtocolDroidGoldModel.java"
+        ]
+      }
+    },
+    {
+      "name": "R2D2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2_d_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/r_2_d_2.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/R2D2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "C3PO",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_po",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/C3POItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/c_3_po.json"
+        ]
+      }
+    },
+    {
+      "name": "DroidTAB",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "droid_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "R2D2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2_d_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/R2D2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C3PORightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_po_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/C3PORightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AstromechDroidRed",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astromech_droid_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/layer/AstromechDroidRedLayer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/astromech_droid_red_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/AstromechDroidRedModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/AstromechDroidRedRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/AstromechDroidRedEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AstromechDroidPink",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astromech_droid_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/astromech_droid_pink_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/layer/AstromechDroidPinkLayer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/AstromechDroidPinkEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/AstromechDroidPinkRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/AstromechDroidPinkModel.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtocolDroidWhite",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protocol_droid_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/ProtocolDroidWhiteModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/ProtocolDroidWhiteEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/protocol_droid_white_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/ProtocolDroidWhiteRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtocolDroidPink",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protocol_droid_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/ProtocolDroidPinkEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/ProtocolDroidPinkModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/protocol_droid_pink_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/ProtocolDroidPinkRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "R4P17",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_4_p_17",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/R4P17Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/r_4_p_17.json"
+        ]
+      }
+    },
+    {
+      "name": "R2KT",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2_kt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/R2KTItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/r_2_kt.json"
+        ]
+      }
+    },
+    {
+      "name": "R4P17RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_4_p_17_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/R4P17RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R2KTRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2_kt_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/R2KTRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TC14",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tc_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/TC14Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/tc_14.json"
+        ]
+      }
+    },
+    {
+      "name": "TC14RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tc_14_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TC14RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "I82",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_82",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/i_82.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/I82Item.java"
+        ]
+      }
+    },
+    {
+      "name": "I82RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_82_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/I82RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GonkDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gonk_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/GonkDroidRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/GonkDroidModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/GonkDroidEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/gonk_droid_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BlasterE11Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blaster_e_11_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlasterE11RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlasterE11",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaster_e_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BlasterE11Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/blaster_e_11.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/BlasterE11ItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/BlasterE11ItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "laser_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/LaserProjectileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/LaserProjectileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/LaserProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlasterE11ItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaster_e_11_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlasterE11ItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaserParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/particles/laser_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/particle/LaserParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "MouseDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/MouseDroidEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/MouseDroidModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/MouseDroidRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/mouse_droid_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BeskarArmorItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/beskar_armor_leggings.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/beskar_armor_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/beskar_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BeskarIngotItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/beskar_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "GNK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/gnk.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/GNKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GNKRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnk_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/GNKRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSE6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mse_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/mse_6.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/MSE6Item.java"
+        ]
+      }
+    },
+    {
+      "name": "MSE6RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mse_6_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/MSE6RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RodianGreen",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodian_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/RodianGreenModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/RodianGreenEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/rodian_green_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/RodianGreenRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "RodianBlue",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodian_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/RodianBlueEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/RodianBlueRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/RodianBlueModel.java"
+        ]
+      }
+    },
+    {
+      "name": "RodianRed",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodian_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/RodianRedRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/RodianRedEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/RodianRedModel.java"
+        ]
+      }
+    },
+    {
+      "name": "RodianGreenOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodian_green_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/RodianGreenOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RodianDefault",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rodian_default",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/RodianDefaultEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/RodianDefaultRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/RodianDefaultModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Ithorian",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ithorian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/IthorianRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/IthorianModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/ithorian_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/IthorianEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Jawa",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jawa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/JawaModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/JawaEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/jawa_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/JawaRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TwiLekBlue",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twi_lek_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TwiLekBlueRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TwiLekBlueEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TwiLekBlueModel.java"
+        ]
+      }
+    },
+    {
+      "name": "TwiLekOrange",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twi_lek_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TwiLekOrangeRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TwiLekOrangeModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TwiLekOrangeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TwiLekPink",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twi_lek_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TwiLekPinkEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TwiLekPinkModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TwiLekPinkRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TwiLekDefault",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twi_lek_default",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TwiLekDefaultRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TwiLekDefaultModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TwiLekDefaultEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/twi_lek_default_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TwiLekOnRightClickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twi_lek_on_right_click_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TwiLekOnRightClickProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TatooineSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sand.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_sand.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_sand.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineSandBlock.java",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooineDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/biome/tatooine_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooineSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_sandstone.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineSandstoneBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_sandstone.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_sandstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Tatooine",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/dimension_type/tatooine.json",
+          "src/main/resources/data/star_wars_expansion/dimension/tatooine.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooinePlanetAnchorRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_anchor_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TatooinePlanetAnchorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TatooinePlanetAnchor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_anchor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_planet_anchor.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/TatooinePlanetAnchorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TatooineSandstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_sandstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_sandstone_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_sandstone_stairs.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineSandstoneStairsBlock.java",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_sandstone_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_stairs_inner.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooineSandstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_sandstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_sandstone_slab.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_sandstone_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_slab_full.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_sandstone_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_slab.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineSandstoneSlabBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooineSandstoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_sandstone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_sandstone_wall.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_sandstone_wall.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_wall_inventory.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_wall_post.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineSandstoneWallBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_wall_side_tall.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_sandstone_wall.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_sandstone_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooineDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_top_right.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/tatooine_door.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/tatooine_door.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_bottom_left_open.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_top_left_open.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_top_right_open.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/TatooineDoorBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_top_left.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/tatooine_door.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_bottom_left.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_bottom_right.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/tatooine_door_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernLantern",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernLanternBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_lantern.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_lantern.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_lantern.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_lantern.json"
+        ]
+      }
+    },
+    {
+      "name": "TuskenRaider",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tusken_raider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TuskenRaiderRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TuskenRaiderModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/tusken_raider_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TuskenRaiderEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporator",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/custom/moisture_vaporator_particle.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/moisture_vaporator.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/MoistureVaporatorTileEntity.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/moisture_vaporator.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/MoistureVaporatorBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/MoistureVaporatorDisplayItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/MoistureVaporatorTileRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/MoistureVaporatorBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/MoistureVaporatorDisplayModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/MoistureVaporatorDisplayItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Vibroblade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibroblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/VibrobladeItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/vibroblade.json"
+        ]
+      }
+    },
+    {
+      "name": "Bantha",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bantha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/BanthaModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/BanthaEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/bantha_spawn_egg.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/bantha_biome_modifier.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/BanthaRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BattleDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/BattleDroidEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/BattleDroidModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/BattleDroidRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/b_1.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/B1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "B1RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/B1RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnemyLaserProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enemy_laser_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/EnemyLaserProjectileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/EnemyLaserProjectileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "DooniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doonium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/DooniumOreBlock.java",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/doonium_ore_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/doonium_ore.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/doonium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/doonium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/doonium_ore.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/doonium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/doonium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TuskenCampment",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tusken_campment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/tusken_campment.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/tusken_campment.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/tusken_campment.json"
+        ]
+      }
+    },
+    {
+      "name": "Krykna",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/KryknaModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/KryknaRenderer.java",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/krykna_biome_modifier.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/KryknaEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/krykna_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "RawBanthaMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bantha_meat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/RawBanthaMeatItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/raw_bantha_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "CookedBanthaMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_bantha_meat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/CookedBanthaMeatItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/cooked_bantha_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "BanhtaHorn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banhta_horn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/banhta_horn.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/BanhtaHornItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MetalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/metal_block.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/metal_block.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/MetalBlockBlock.java",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/metal_block.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_stairs_inner.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/metal_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/metal_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/metal_stairs.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/MetalStairsBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/metal_slab.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/metal_slab.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/MetalSlabBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_slab_full.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/metal_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "WorkspaceBench",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workspace_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/WorkspaceBenchBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/custom/workspace_bench_particle.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/workspace_bench.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/WorkspaceBenchTileRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/WorkspaceBenchDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/WorkspaceBenchTileEntity.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/workspace_bench.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/WorkspaceBenchDisplayModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/WorkspaceBenchBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/WorkspaceBenchDisplayItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ControlPanel",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ControlPanelDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ControlPanelBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ControlPanelBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ControlPanelTileRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/control_panel.json",
+          "src/main/resources/assets/star_wars_expansion/models/custom/control_panel_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ControlPanelDisplayModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/ControlPanelDisplayItem.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/control_panel.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/ControlPanelTileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ModernPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernPillarBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_pillar.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_pillar.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_pillar.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_stairs.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernStairsBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_stairs_outer.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_stairs.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_stairs.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_slab_full.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_slab.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_slab_top.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernSlabBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_slab.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "JawaSandcrawler",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jawa_sandcrawler",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/jawa_sandcrawler.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/jawa_sandcrawler.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/jawa_sandcrawler.json"
+        ]
+      }
+    },
+    {
+      "name": "GalacticCredit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galactic_credit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/GalacticCreditItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/galactic_credit.json"
+        ]
+      }
+    },
+    {
+      "name": "GalacticCreditGold",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galactic_credit_gold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/GalacticCreditGoldItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/galactic_credit_gold.json"
+        ]
+      }
+    },
+    {
+      "name": "KryknaLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/KryknaLegItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/krykna_leg.json"
+        ]
+      }
+    },
+    {
+      "name": "KryknaString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna_string",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/KryknaStringItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/krykna_string.json"
+        ]
+      }
+    },
+    {
+      "name": "KryknaDropLeg",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna_drop_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/KryknaDropLegProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryknaDropString",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna_drop_string",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/KryknaDropStringProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CantinaLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cantina_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/cantina_light.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/cantina_light.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/cantina_light.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/cantina_light.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/CantinaLightBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BanthaMilk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bantha_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BanthaMilkItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/bantha_milk.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_crate.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_crate.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_crate.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_crate.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernCrateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ModernCrate2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_crate_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_crate_2.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_crate_2.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_crate_2.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_crate_2.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernCrate2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "ModernCrate3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_crate_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernCrate3Block.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_crate_3.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_crate_3.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_crate_3.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_crate_3.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernCrate4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_crate_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_crate_4.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernCrate4Block.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_crate_4.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_crate_4.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_crate_4.json"
+        ]
+      }
+    },
+    {
+      "name": "ArgesFrog",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arges_frog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/ArgesFrogEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/ArgesFrogRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/arges_frog_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/ArgesFrogModel.java"
+        ]
+      }
+    },
+    {
+      "name": "ArgesFrogLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arges_frog_leg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/ArgesFrogLegItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/arges_frog_leg.json"
+        ]
+      }
+    },
+    {
+      "name": "ButcherTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcher_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ButcherTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butcher_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Meiloorun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiloorun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/MeiloorunItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/meiloorun.json"
+        ]
+      }
+    },
+    {
+      "name": "Jogan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jogan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/jogan.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/JoganItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/human_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/HumanEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/HumanRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/HumanModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Landspeeder",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landspeeder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/LandspeederEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/LandspeederModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/LandspeederRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LandspeederItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landspeeder_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/LandspeederItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandspeederItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landspeeder_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LandspeederItemItemModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/landspeeder_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LandspeederItemItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/LandspeederItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VehiclesTAB",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vehicles_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DooniumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doonium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/doonium_armor_leggings.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/DooniumArmorItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/doonium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "WeaponsmithTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaponsmith_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WeaponsmithTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaponsmith_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LumberjackTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumberjack_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LumberjackTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lumberjack_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TatooineVillage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/tatooine_village.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/tatooine_village.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/tatooine_village.json"
+        ]
+      }
+    },
+    {
+      "name": "Plastoid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastoid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/PlastoidItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/plastoid.json"
+        ]
+      }
+    },
+    {
+      "name": "RubberOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/rubber_ore_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/rubber_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/rubber_ore.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/rubber_ore.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/rubber_ore.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/rubber_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/rubber_ore.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/RubberOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/RubberItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/rubber.json"
+        ]
+      }
+    },
+    {
+      "name": "XWing",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_wing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/XWingRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/XWingEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/XWingModel.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipMoveKeyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_move_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipMoveKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipMoveKeyOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_move_key_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipMoveKeyOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipMoveKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_move_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/network/SpaceshipMoveKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipMoveProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_move_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipMoveProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spaceship_Explode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_explode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/Spaceship_ExplodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XWingItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_wing_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/XWingItemItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/XWingItemItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/XWingItemItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/x_wing_item.json"
+        ]
+      }
+    },
+    {
+      "name": "XWingItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_wing_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/XWingItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DooniumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doonium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/doonium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/rubber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatoidRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platoid_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/platoid_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BanhtaMeatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banhta_meat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/banhta_meat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipShootKeyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spaceship_shoot_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipShootKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipShootKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_shoot_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/network/SpaceshipShootKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipShootKeyOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_shoot_key_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipShootKeyOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ComputerTip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_tip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/computer_tip.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/ComputerTipItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BanthaLeather",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bantha_leather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/BanthaLeatherItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/bantha_leather.json"
+        ]
+      }
+    },
+    {
+      "name": "BanthaLeatherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bantha_leather_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/bantha_leather_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KryknaStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krykna_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/krykna_string_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StabilizerMask",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilizer_mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/StabilizerMaskItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/stabilizer_mask_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipInvisibleCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spaceship_invisible_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipInvisibleConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuadaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/quadanium_ore.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/QuadaniumOreBlock.java",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/quadanium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/quadanium_ore.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/quadanium_ore_biome_modifier.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/quadanium_ore.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/quadanium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/quadanium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "QuadaniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/QuadaniumIngotItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/quadanium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "QuadaniumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadanium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/quadanium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SpaceshipTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ElectronicBoard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_board",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/electronic_board.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/ElectronicBoardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DroidTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "droid_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DroidTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "droid_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PlanetAnchorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planet_anchor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/gui/PlanetAnchorGUIScreen.java",
+          "src/main/java/net/mcreator/starwarsexpansion/world/inventory/PlanetAnchorGUIMenu.java",
+          "src/main/java/net/mcreator/starwarsexpansion/network/PlanetAnchorGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipAnchorGUIKeyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_anchor_gui_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipAnchorGUIKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipAnchorGUIKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_anchor_gui_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/network/SpaceshipAnchorGUIKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/screens/SpaceshipOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceshipOverlayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spaceship_overlay_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpaceshipOverlayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TravelDenyProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_deny_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TravelDenyProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TravelTatooineProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "travel_tatooine_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TravelTatooineProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaberEmitter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saber_emitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/SaberEmitterItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/saber_emitter.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/blue_lightsaber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/green_lightsaber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/yellow_lightsaber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/red_lightsaber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/purple_lightsaber_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JediTempleGuardArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jedi_temple_guard_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/jedi_temple_guard_armor_chestplate.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/jedi_temple_guard_armor_helmet.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/JediTempleGuardArmorItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/jedi_temple_guard_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "ModernBookshelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_bookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/modern_bookshelf.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ModernBookshelfBlock.java",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/modern_bookshelf.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/modern_bookshelf.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/modern_bookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Holocron",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holocron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/HolocronDisplayModel.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/holocron.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/HolocronTileRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/custom/holocron_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/HolocronDisplayItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/holocron.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/HolocronBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/HolocronDisplayItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/HolocronTileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/HolocronBlockModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Statue",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/StatueBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/StatueDisplayModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/StatueTileEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/statue.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/StatueDisplayItem.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/statue.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/StatueTileRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/custom/statue_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/StatueBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/StatueDisplayItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "JediTemple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jedi_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/jedi_temple.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/jedi_temple.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/jedi_temple.json"
+        ]
+      }
+    },
+    {
+      "name": "HolocronDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holocron_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/holocron.json"
+        ]
+      }
+    },
+    {
+      "name": "T3M4",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3_m_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/T3M4Entity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/T3M4Renderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/T3M4Model.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/t_3_m_4_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "T3M4Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3_m_4_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/T3M4ItemItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/t_3_m_4_item.json"
+        ]
+      }
+    },
+    {
+      "name": "T3M4ItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3_m_4_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/T3M4ItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightsaberGeo",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lightsaber_geo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/LightsaberGeoItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/lightsaber_geo.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LightsaberGeoItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LightsaberGeoItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LighstanerGeoRed",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lighstaner_geo_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/LighstanerGeoRedItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LighstanerGeoRedItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LighstanerGeoRedItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/lighstaner_geo_red.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberGeoGreen",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lightsaber_geo_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/LightsaberGeoGreenItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LightsaberGeoGreenItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LightsaberGeoGreenItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/lightsaber_geo_green.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberGeoYellow",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lightsaber_geo_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LightsaberGeoYellowItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LightsaberGeoYellowItemModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/lightsaber_geo_yellow.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/LightsaberGeoYellowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberGeoPurple",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lightsaber_geo_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/LightsaberGeoPurpleItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/LightsaberGeoPurpleItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/LightsaberGeoPurpleItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/lightsaber_geo_purple.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeederBike",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeder_bike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/SpeederBikeEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/SpeederBikeModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/SpeederBikeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeederBikeItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeder_bike_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/SpeederBikeItemItemModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/speeder_bike_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/SpeederBikeItemItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/SpeederBikeItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeederBikeItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeder_bike_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SpeederBikeItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TIEFighter",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_fighter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TIEFighterRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TIEFighterModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TIEFighterEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TIEFighterItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_fighter_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/tie_fighter_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/TIEFighterItemItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/TIEFighterItemItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/TIEFighterItemItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TIEFighterItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_fighter_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TIEFighterItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TIEFighterOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_fighter_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TIEFighterOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XWingOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_wing_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/XWingOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EscapePod",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/EscapePodRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/EscapePodEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/EscapePodModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/layer/EscapePodLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "EscapePodItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escape_pod_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/escape_pod_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/EscapePodItemItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/EscapePodItemItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/EscapePodItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EscapePodItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escape_pod_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/EscapePodItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrokenEscapePod",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_escape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/BrokenEscapePodModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/BrokenEscapePodRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/BrokenEscapePodEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BrokenEscapePodSolidBoundingBoxCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_escape_pod_solid_bounding_box_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BrokenEscapePodSolidBoundingBoxConditionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BrokenPodStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_pod_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/broken_pod_structure.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/broken_pod_structure.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/broken_pod_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "ReparationKit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparation_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/reparation_kit.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/ReparationKitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BrokenEscapePodRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_escape_pod_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BrokenEscapePodRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StabilizerMaskHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilizer_mask_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/StabilizerMaskHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VibroAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibro_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/VibroAxeItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/vibro_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceBand",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interface_band",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/InterfaceBandItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/interface_band_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceBandHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interface_band_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/InterfaceBandHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrokenPodTatooineStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_pod_tatooine_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/broken_pod_tatooine_structure.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/broken_pod_tatooine_structure.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/broken_pod_tatooine_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "ReparationKitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparation_kit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/reparation_kit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectronicBoardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_board_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/electronic_board_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StunBaton",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_baton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/StunBatonItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/stun_baton.json"
+        ]
+      }
+    },
+    {
+      "name": "StunBatonLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_baton_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/StunBatonLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperSandstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sandstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/copper_sandstone_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/copper_sandstone_ore.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/copper_sandstone_ore.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/copper_sandstone_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/CopperSandstoneOreBlock.java",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/copper_sandstone_ore.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/copper_sandstone_ore.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/copper_sandstone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/copper_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/beskar_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/beskar_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/beskar_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeskarLegginsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beskar_leggins_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/beskar_leggins_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DL44",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dl_44",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DL44ItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/DL44Item.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DL44ItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/dl_44.json"
+        ]
+      }
+    },
+    {
+      "name": "DL44RightClickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dl_44_right_click_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DL44RightClickProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Westar34",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "westar_34",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/Westar34Item.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/Westar34ItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/westar_34.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/Westar34ItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Westar34RightClickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "westar_34_right_click_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/Westar34RightClickProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EE3",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ee_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/EE3ItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/EE3Item.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/ee_3.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/EE3ItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "EE3RightClickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ee_3_right_click_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/EE3RightClickProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinerTrader",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_trader",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MinerTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_trading",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GaderffiiStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaderffii_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/GaderffiiStickItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/gaderffii_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "ComputerTipRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_tip_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/computer_tip_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ATST",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/ATSTEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/ATSTRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/ATSTModel.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/LaserProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ATSTItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atst_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/ATSTItemItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/atst_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/ATSTItemItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/ATSTItemItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "ATSTItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atst_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/ATSTItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StormtrooperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormtrooper_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/StormtrooperArmorItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/stormtrooper_armor_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/stormtrooper_armor_leggings.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/stormtrooper_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "TravelEarth",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "travel_earth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TravelEarthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HothSnow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_snow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/hoth_snow.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/hoth_snow.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/hoth_snow.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/hoth_snow.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/HothSnowBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Hoth",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/dimension_type/hoth.json",
+          "src/main/resources/data/star_wars_expansion/dimension/hoth.json"
+        ]
+      }
+    },
+    {
+      "name": "TravelHothProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "travel_hoth_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TravelHothProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snowspeeder",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowspeeder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/SnowspeederEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/SnowspeederModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/SnowspeederRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SnowspeederItem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowspeeder_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/SnowspeederItemItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/snowspeeder_item.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/SnowspeederItemItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/SnowspeederItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SnowspeederItemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowspeeder_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/SnowspeederItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tauntaun",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tauntaun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TauntaunEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/tauntaun_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TauntaunRenderer.java",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/tauntaun_biome_modifier.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TauntaunModel.java"
+        ]
+      }
+    },
+    {
+      "name": "TauntaunSaddle",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tauntaun_saddle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/TauntaunSaddleRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/TauntaunSaddleModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/TauntaunSaddleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TauntaunLeather",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tauntaun_leather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/TauntaunLeatherItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/tauntaun_leather.json"
+        ]
+      }
+    },
+    {
+      "name": "TauntaunRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tauntaun_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TauntaunRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HothPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/biome/hoth_plains.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowSuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/snow_suit_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/snow_suit_leggings.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/snow_suit_chestplate.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/SnowSuitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HothFrozenProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_frozen_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/HothFrozenProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HothStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/hoth_stone.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/hoth_stone.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/hoth_stone.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/hoth_stone.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/hoth_stone.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/hoth_stone_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/hoth_stone.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/HothStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SnowHoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_hood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_hood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowLegginsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_leggins_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_leggins_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AurodiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aurodium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/aurodium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/aurodium_ore.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/aurodium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/aurodium_ore.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/aurodium_ore.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/AurodiumOreBlock.java",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/aurodium_ore_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/aurodium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "AurodiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aurodium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/aurodium_ingot.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/AurodiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SnowHoodRecipeVariant",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_hood_recipe_variant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_hood_recipe_variant.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowChestplateRecipeVariant",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_chestplate_recipe_variant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_chestplate_recipe_variant.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowLegginsRecipeVariant",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_leggins_recipe_variant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/snow_leggins_recipe_variant.json"
+        ]
+      }
+    },
+    {
+      "name": "Gamorrean",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamorrean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/gamorrean_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/GamorreanEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/GamorreanModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/GamorreanRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Hutt",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hutt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/hutt_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/HuttEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/HuttRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/HuttModel.java"
+        ]
+      }
+    },
+    {
+      "name": "MetalTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_trapdoor_top.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_trapdoor_open.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/metal_trapdoor.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/metal_trapdoor.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/MetalTrapdoorBlock.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/metal_trapdoor.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/metal_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "GridMetalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grid_metal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/grid_metal_block.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/grid_metal_block.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/grid_metal_block.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/grid_metal_block.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/GridMetalBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PirateLizard",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_lizard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/PirateLizardRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/PirateLizardModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/PirateLizardEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PirateHuman",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_human",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/PirateHumanRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/PirateHumanEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/PirateHumanModel.java"
+        ]
+      }
+    },
+    {
+      "name": "PirateWest",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_west",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/PirateWestEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/PirateWestModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/PirateWestRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "jumpvar",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "ssmov",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "swing",
+      "files": [
+        "swing1",
+        "swing2",
+        "swing3",
+        "swing4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lightsaber_on",
+      "files": [
+        "on"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lightsaber_off",
+      "files": [
+        "off"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mechdroid_death",
+      "files": [
+        "mechdroiddeath"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mechdroid_idle",
+      "files": [
+        "mechdroididle1",
+        "mechdroididle2",
+        "mechdroididle3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "protocoldroid_hurt",
+      "files": [
+        "protocoldroidhurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gonk_idle",
+      "files": [
+        "gonk_idle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "blaster_shot",
+      "files": [
+        "blaster"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mousedroid_idle",
+      "files": [
+        "mousedroidle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rodian_death",
+      "files": [
+        "rodiandeath"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rodian_idle",
+      "files": [
+        "rodianidle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rodian_hurt",
+      "files": [
+        "rodianhurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ithorian_idle",
+      "files": [
+        "ithorian_idle_1",
+        "ithorian_idle_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ithorian_hurt",
+      "files": [
+        "ithorian_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ithorian_death",
+      "files": [
+        "ithorian_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jawa_idle",
+      "files": [
+        "jawa_idle1",
+        "jawa_idle2",
+        "jawa_idle3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jawa_death",
+      "files": [
+        "jawa_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "twilek_idle",
+      "files": [
+        "twilek_idle2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "tusken_idle",
+      "files": [
+        "tusken_idle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "tusken_death",
+      "files": [
+        "tusken_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bantha_hurt",
+      "files": [
+        "bantha_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bantha_idle",
+      "files": [
+        "bantha_idle1",
+        "bantha_idle2",
+        "bantha_idle3",
+        "bantha_idle4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "droid_idle",
+      "files": [
+        "droid_idle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "spaceship_idle",
+      "files": [
+        "spaceship_idle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "westar_shot",
+      "files": [
+        "westar"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "tauntaun_death",
+      "files": [
+        "tauntaun_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "tauntaun_idle",
+      "files": [
+        "tauntaun_idle_1",
+        "tauntaun_idle_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:GridMetalBlock",
+      "~CUSTOM:ModernBookshelf",
+      "~CUSTOM:CantinaLight",
+      "~CUSTOM:ModernSlab",
+      "~CUSTOM:ModernStairs",
+      "~CUSTOM:ModernPillar",
+      "~CUSTOM:MetalSlab",
+      "~CUSTOM:MetalStairs",
+      "~CUSTOM:MetalBlock"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BLUE_ICE",
+      "~CUSTOM:HothSnow",
+      "~CUSTOM:TatooineSandstone",
+      "~CUSTOM:TatooineSand"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:logs": [],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GridMetalBlock",
+      "~CUSTOM:MetalTrapdoor",
+      "~CUSTOM:AurodiumOre",
+      "~CUSTOM:HothStone",
+      "~CUSTOM:CopperSandstoneOre",
+      "~CUSTOM:Holocron",
+      "~CUSTOM:Statue",
+      "~CUSTOM:ModernBookshelf",
+      "~CUSTOM:QuadaniumOre",
+      "~CUSTOM:RubberOre",
+      "~CUSTOM:CantinaLight",
+      "~CUSTOM:ModernSlab",
+      "~CUSTOM:ModernStairs",
+      "~CUSTOM:ModernPillar",
+      "~CUSTOM:ControlPanel",
+      "~CUSTOM:WorkspaceBench",
+      "~CUSTOM:MetalSlab",
+      "~CUSTOM:MetalStairs",
+      "~CUSTOM:MetalBlock",
+      "~CUSTOM:DooniumOre",
+      "~CUSTOM:MoistureVaporator",
+      "~CUSTOM:ModernLantern",
+      "~CUSTOM:TatooineDoor",
+      "~CUSTOM:TatooineSandstoneWall",
+      "~CUSTOM:TatooineSandstoneSlab",
+      "~CUSTOM:TatooineSandstoneStairs",
+      "~CUSTOM:TatooineSandstone"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:ModernSlab",
+      "~CUSTOM:MetalSlab",
+      "~CUSTOM:TatooineSandstoneSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:ControlPanel",
+      "~CUSTOM:WorkspaceBench"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:HothSnow",
+      "~CUSTOM:TatooineSand"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:TatooineSandstoneWall"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:VibroAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:ModernStairs",
+      "~CUSTOM:MetalStairs",
+      "~CUSTOM:TatooineSandstoneStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:GaderffiiStick",
+      "~CUSTOM:StunBaton",
+      "~CUSTOM:Vibroblade",
+      "~CUSTOM:PurpleLightsaberClosed",
+      "~CUSTOM:YellowLightsaberClosed",
+      "~CUSTOM:GreenLightsaberClosed",
+      "~CUSTOM:RedLightsaberClosed",
+      "~CUSTOM:BlueLightsaberClosed"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:TatooineSand",
+      "CUSTOM:HothSnow"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.star_wars_expansion.mse_6": "§eMSE-6",
+      "item.star_wars_expansion.rodian_green_spawn_egg": "Rodian Spawn Egg",
+      "block.star_wars_expansion.modern_crate_3": "Modern Crate",
+      "item.star_wars_expansion.kyber_crystal_purple": "§5Purple Kyber Crystal ",
+      "item.star_wars_expansion.yellow_lightsaber_closed": "§eYellow Lightsaber",
+      "item.star_wars_expansion.clone_armor_212_helmet": "Clone Trooper 212st Helmet",
+      "block.star_wars_expansion.modern_crate_4": "Modern Crate",
+      "entity.star_wars_expansion.twi_lek_default": "Twi\u0027Lek",
+      "block.star_wars_expansion.modern_crate_2": "Modern Crate",
+      "block.star_wars_expansion.modern_pillar": "Modern Pillar",
+      "item.star_wars_expansion.arges_frog_spawn_egg": "Arges Frog Spawn Egg",
+      "gui.star_wars_expansion.spaceship_overlay.label_z": "Z",
+      "item.star_wars_expansion.krykna_leg": "Krykna Leg",
+      "item.star_wars_expansion.pirate_lizard_spawn_egg": "Pirate Spawn Egg",
+      "subtitles.rodian_idle": "",
+      "item.star_wars_expansion.bantha_milk": "Bantha Milk Bucket",
+      "gui.star_wars_expansion.planet_anchor_gui.label_tatooine": "Tatooine",
+      "item.star_wars_expansion.bantha_spawn_egg": "Bantha Spawn Egg",
+      "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
+      "gui.star_wars_expansion.planet_anchor_gui.label_earth": "Earth",
+      "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
+      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
+      "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
+      "block.star_wars_expansion.tatooine_door": "Tatooine Door",
+      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "item.star_wars_expansion.jogan": "Jogan",
+      "key.star_wars_expansion.spaceship_shoot_key": "Spaceship Shoot ",
+      "item.star_wars_expansion.vibroblade": "§eVibroblade",
+      "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
+      "entity.star_wars_expansion.protocol_droid_pink": "Protocol Droid Pink",
+      "block.star_wars_expansion.metal_slab": "Metal Slab",
+      "entity.star_wars_expansion.gamorrean": "Gamorrean",
+      "item.star_wars_expansion.tatooine_planet_anchor": "Tatooine Planet Anchor",
+      "biome.star_wars_expansion.hoth_plains": "Hoth Plains",
+      "item.star_wars_expansion.rubber": "Rubber",
+      "block.star_wars_expansion.modern_slab": "Modern Slab",
+      "block.star_wars_expansion.doonium_ore": "Doonium Ore",
+      "block.star_wars_expansion.workspace_bench": "Workspace Bench",
+      "subtitles.westar_shot": "",
+      "item_group.star_wars_expansion.force_tab": "Star Wars Force",
+      "item.star_wars_expansion.landspeeder_spawn_egg": "Landspeeder Spawn Egg",
+      "item.star_wars_expansion.beskar_armor_chestplate": "§cBeskar Chestplate",
+      "item.star_wars_expansion.doonium_ingot": "Doonium Ingot",
+      "item.star_wars_expansion.tauntaun_saddle_spawn_egg": "Tauntaun Spawn Egg",
+      "biome.star_wars_expansion.tatooine_desert": "Tatooine Desert",
+      "item.star_wars_expansion.astromech_droid_blue_spawn_egg": "Astromech Droid Blue Spawn Egg",
+      "item.star_wars_expansion.banhta_horn": "Bantha Horn",
+      "block.star_wars_expansion.metal_stairs": "Metal Stairs",
+      "entity.star_wars_expansion.astromech_droid_pink": "Astromech Droid Pink",
+      "subtitles.rodian_death": "",
+      "item.star_wars_expansion.kyber_crystal_yellow": "§eYellow Kyber Crystal ",
+      "subtitles.twilek_idle": "",
+      "subtitles.gonk_idle": "",
+      "entity.star_wars_expansion.pirate_lizard": "Pirate",
+      "item.star_wars_expansion.brown_jedi_clothes_chestplate": "§eBrown Jedi Clothes",
+      "entity.star_wars_expansion.arges_frog": "Arges Frog",
+      "item.star_wars_expansion.snowspeeder_item": "Snowspeeder",
+      "subtitles.bantha_hurt": "",
+      "item.star_wars_expansion.tie_fighter_item": "TIE-Fighter",
+      "entity.star_wars_expansion.atst": "AT-ST",
+      "item.star_wars_expansion.gaderffii_stick": "§eGaderffii Stick",
+      "entity.minecraft.villager.star_wars_expansion.lumberjack_trader": "Lumberjack Trader",
+      "subtitles.swing": "",
+      "entity.star_wars_expansion.twi_lek_blue": "Twi\u0027Lek",
+      "item.star_wars_expansion.r_2_kt": "§eR2-KT",
+      "item.star_wars_expansion.lighstaner_geo_red": "§cRed Lightsaber",
+      "item.star_wars_expansion.speeder_bike_spawn_egg": "Speeder Bike Spawn Egg",
+      "item.star_wars_expansion.blaster_e_11": "Blaster E-11",
+      "entity.star_wars_expansion.rodian_blue": "Rodian",
+      "item.star_wars_expansion.mouse_droid_spawn_egg": "Mouse Droid Spawn Egg",
+      "subtitles.bantha_idle": "",
+      "item.star_wars_expansion.r_4_p_17": "§eR4-P17",
+      "item_group.star_wars_expansion.trooper_tab": "Star Wars Combat",
+      "entity.star_wars_expansion.rodian_red": "Rodian",
+      "item.star_wars_expansion.snow_suit_helmet": "Snow Hood",
+      "block.star_wars_expansion.rubber_ore": "Rubber Ore",
+      "item.star_wars_expansion.protocol_droid_white_spawn_egg": "Protocol Droid White Spawn Egg",
+      "subtitles.mechdroid_idle": "",
+      "entity.star_wars_expansion.twi_lek_pink": "Twi\u0027Lek",
+      "entity.star_wars_expansion.broken_escape_pod": "Escape Pod",
+      "item.star_wars_expansion.lightsaber_geo_green": "§aGreen Lightsaber",
+      "subtitles.tauntaun_death": "",
+      "subtitles.lightsaber_off": "",
+      "item.star_wars_expansion.battle_droid_spawn_egg": "Battle Droid Spawn Egg",
+      "item.star_wars_expansion.dl_44": "DL-44",
+      "item.star_wars_expansion.gnk": "§eGNK",
+      "item.star_wars_expansion.beskar_ingot": "§cBeskar Ingot",
+      "item.star_wars_expansion.clone_armor_212_leggings": "Clone Trooper 212st Leggings",
+      "entity.star_wars_expansion.mouse_droid": "Mouse Droid",
+      "entity.minecraft.villager.star_wars_expansion.miner_trader": "Miner Trader",
+      "item.star_wars_expansion.ithorian_spawn_egg": "Ithorian Spawn Egg",
+      "item.star_wars_expansion.hutt_spawn_egg": "Hutt Spawn Egg",
+      "gui.star_wars_expansion.planet_anchor_gui.label_hoth": "Hoth",
+      "item.star_wars_expansion.t_3_m_4_item": "§eT3-M4",
+      "subtitles.jawa_death": "",
+      "entity.star_wars_expansion.snowspeeder": "Snowspeeder",
+      "block.star_wars_expansion.tatooine_sandstone": "Tatooine Sandstone",
+      "item.star_wars_expansion.jedi_temple_guard_armor_chestplate": "§eJedi Temple Guard Robes",
+      "item_group.star_wars_expansion.vehicles_tab": "Star Wars Vehicles",
+      "entity.star_wars_expansion.bantha": "Bantha",
+      "item.star_wars_expansion.blue_lightsaber_closed": "§bBlue Lightsaber",
+      "item.star_wars_expansion.quadanium_ingot": "Quadanium Ingot",
+      "item_group.star_wars_expansion.items_tab": "Star Wars Items",
+      "item.star_wars_expansion.grand_master_jedi_clothes_chestplate": "§6Grand Master Jedi Clothes",
+      "subtitles.tusken_death": "",
+      "item.star_wars_expansion.astromech_droid_pink_spawn_egg": "Astromech Droid Pink Spawn Egg",
+      "block.star_wars_expansion.hoth_snow": "Hoth Snow",
+      "subtitles.mechdroid_death": "",
+      "entity.star_wars_expansion.t_3_m_4": "T3-M4",
+      "item.star_wars_expansion.pirate_human_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.clone_armor_501_leggings": "Clone Trooper 501st Leggings",
+      "entity.star_wars_expansion.tie_fighter": "TIE-Fighter",
+      "entity.star_wars_expansion.rodian_default": "Rodian",
+      "item.star_wars_expansion.cooked_bantha_meat": "Cooked Bantha Meat",
+      "block.star_wars_expansion.hoth_stone": "Hoth Stone",
+      "item.star_wars_expansion.tauntaun_leather": "Tauntaun Leather",
+      "entity.star_wars_expansion.jawa": "Jawa",
+      "item.star_wars_expansion.pirate_west_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.clone_armor_41_helmet": "Clone Trooper 41st Helmet",
+      "item.star_wars_expansion.lightsaber_geo": "§bBlue Lightsaber",
+      "entity.star_wars_expansion.hutt": "Hutt",
+      "item.star_wars_expansion.kyber_crystal_green": "§aGreen Kyber Crystal ",
+      "entity.star_wars_expansion.gonk_droid": "Gonk",
+      "block.star_wars_expansion.quadanium_ore": "Quadanium Ore",
+      "item.star_wars_expansion.arges_frog_leg": "Arges Frog Leg",
+      "item.star_wars_expansion.green_lightsaber_closed": "§aGreen Lightsaber",
+      "item.star_wars_expansion.red_lightsaber_closed": "§cRed Lightsaber",
+      "item.star_wars_expansion.twi_lek_orange_spawn_egg": "Twi\u0027Lek Spawn Egg",
+      "item.star_wars_expansion.gonk_droid_spawn_egg": "Gonk Spawn Egg",
+      "subtitles.protocoldroid_hurt": "",
+      "item.star_wars_expansion.galactic_credit_gold": "Galactic Credit",
+      "key.star_wars_expansion.double_jump_key": "Double Jump",
+      "item.star_wars_expansion.astromech_droid_red_spawn_egg": "Astromech Droid Red Spawn Egg",
+      "entity.star_wars_expansion.battle_droid": "Battle Droid",
+      "entity.minecraft.villager.star_wars_expansion.weaponsmith_trader": "Weaponsmith Trader",
+      "item.star_wars_expansion.escape_pod_item": "Escape Pod ",
+      "item.star_wars_expansion.stormtrooper_armor_leggings": "Stormtrooper Leggings",
+      "block.star_wars_expansion.tatooine_sandstone_stairs": "Tatooine Sandstone Stairs",
+      "item.star_wars_expansion.x_wing_spawn_egg": "X-Wing Spawn Egg",
+      "item.star_wars_expansion.reparation_kit": "Reparation Kit",
+      "subtitles.tauntaun_idle": "",
+      "entity.star_wars_expansion.pirate_west": "Pirate",
+      "block.star_wars_expansion.modern_lantern": "Modern Lantern",
+      "item.star_wars_expansion.clone_armor_501_chestplate": "Clone Trooper 501st Chestplate",
+      "item.star_wars_expansion.escape_pod_spawn_egg": "Escape Pod Spawn Egg",
+      "entity.star_wars_expansion.tauntaun": "Tauntaun",
+      "block.star_wars_expansion.statue": "Jedi Knight Statue",
+      "item.star_wars_expansion.broken_escape_pod_spawn_egg": "Escape Pod Spawn Egg",
+      "item.star_wars_expansion.stun_baton": "§eStun Baton",
+      "subtitles.blaster_shot": "",
+      "item.star_wars_expansion.rodian_blue_spawn_egg": "Rodian Spawn Egg",
+      "subtitles.ithorian_idle": "",
+      "item.star_wars_expansion.speeder_bike_item": "Speeder Bike",
+      "item.star_wars_expansion.twi_lek_default_spawn_egg": "Twi\u0027Lek Spawn Egg",
+      "item.star_wars_expansion.stabilizer_mask_helmet": "§eStabilizer Mask",
+      "item.star_wars_expansion.protocol_droid_pink_spawn_egg": "Protocol Droid Pink Spawn Egg",
+      "block.star_wars_expansion.holocron": "Holocron",
+      "key.star_wars_expansion.spaceship_anchor_gui_key": "Open Space Travel",
+      "item.star_wars_expansion.lightsaber_geo_purple": "§5Purple Lightsaber",
+      "item.star_wars_expansion.snow_suit_leggings": "Snow Leggins",
+      "item.star_wars_expansion.protocol_droid_gold_spawn_egg": "Protocol Droid Gold Spawn Egg",
+      "entity.star_wars_expansion.rodian_green": "Rodian",
+      "item.star_wars_expansion.rodian_red_spawn_egg": "Rodian Spawn Egg",
+      "block.star_wars_expansion.tatooine_sand": "Tatooine Sand",
+      "block.star_wars_expansion.copper_sandstone_ore": "Copper Ore",
+      "item.star_wars_expansion.clone_armor_501_helmet": "Clone Trooper 501st Helmet",
+      "entity.star_wars_expansion.protocol_droid_gold": "Protocol Droid Gold",
+      "entity.star_wars_expansion.tusken_raider": "Tusken",
+      "gui.star_wars_expansion.planet_anchor_gui.label_kashyyyk": "Kashyyyk",
+      "item.star_wars_expansion.galactic_credit": "Galactic Credit",
+      "subtitles.droid_idle": "",
+      "block.star_wars_expansion.metal_block": "Metal Block",
+      "item.star_wars_expansion.landspeeder_item": "Landspeeder",
+      "item.star_wars_expansion.tie_fighter_spawn_egg": "TIE-Fighter Spawn Egg",
+      "item.star_wars_expansion.gamorrean_spawn_egg": "Gamorrean Spawn Egg",
+      "item.star_wars_expansion.stormtrooper_armor_helmet": "Stormtrooper Helmet",
+      "item.star_wars_expansion.tauntaun_spawn_egg": "Tauntaun Spawn Egg",
+      "subtitles.mousedroid_idle": "",
+      "entity.star_wars_expansion.twi_lek_orange": "Twi\u0027Lek",
+      "entity.minecraft.villager.star_wars_expansion.spaceship_trader": "Spaceship Trader",
+      "entity.minecraft.villager.star_wars_expansion.butcher_trader": "Butcher Trader",
+      "item.star_wars_expansion.clone_armor_41_leggings": "Clone Trooper 41st Leggings",
+      "item.star_wars_expansion.doonium_armor_leggings": "§eDoonium Leggins",
+      "item.star_wars_expansion.plastoid": "Plastoid",
+      "entity.star_wars_expansion.tauntaun_saddle": "Tauntaun",
+      "subtitles.ithorian_hurt": "",
+      "item.star_wars_expansion.jedi_temple_guard_armor_leggings": "§eJedi Temple Guard Leggins",
+      "item.star_wars_expansion.interface_band_helmet": "§eInterface Band",
+      "item.star_wars_expansion.i_82": "§eI-82",
+      "entity.star_wars_expansion.human": "Human",
+      "item.star_wars_expansion.stormtrooper_armor_chestplate": "Stormtrooper Chestplate",
+      "block.star_wars_expansion.modern_crate": "Modern Crate",
+      "item.star_wars_expansion.clone_armor_chestplate": "Clone Trooper Chestplate",
+      "block.star_wars_expansion.modern_stairs": "Modern Stairs",
+      "item.star_wars_expansion.lightsaber_geo_yellow": "§eYellow Lightsaber",
+      "item.star_wars_expansion.c_3_po": "§eC-3PO",
+      "item.star_wars_expansion.vibro_axe": "§eVibro-Axe",
+      "subtitles.lightsaber_on": "",
+      "gui.star_wars_expansion.spaceship_overlay.label_open_galaxy_map_z": "Open Galaxy Map  ( Z )",
+      "subtitles.spaceship_idle": "",
+      "item.star_wars_expansion.meiloorun": "Meiloorun",
+      "item.star_wars_expansion.r_2_d_2": "§eR2-D2",
+      "entity.star_wars_expansion.ithorian": "Ithorian",
+      "item.star_wars_expansion.bantha_leather": "Bantha Leather",
+      "item.star_wars_expansion.snow_suit_chestplate": "Snow Suit",
+      "subtitles.tusken_idle": "",
+      "entity.star_wars_expansion.astromech_droid_blue": "Astromech Droid Blue",
+      "subtitles.jawa_idle": "",
+      "item.star_wars_expansion.x_wing_item": "X-Wing",
+      "item.star_wars_expansion.black_jedi_clothes_chestplate": "§eBlack Jedi Clothes",
+      "block.star_wars_expansion.cantina_light": "Cantina Light",
+      "subtitles.ithorian_death": "",
+      "item.star_wars_expansion.aurodium_ingot": "Aurodium Ingot",
+      "item.star_wars_expansion.purple_lightsaber_closed": "§5Purple Lightsaber",
+      "item.star_wars_expansion.gray_jedi_clothes_chestplate": "§eGray Jedi Clothes",
+      "gui.star_wars_expansion.planet_anchor_gui.label_endor": "Endor",
+      "item.star_wars_expansion.saber_emitter": "Saber Emitter",
+      "block.star_wars_expansion.grid_metal_block": "Grid Metal Block",
+      "item.star_wars_expansion.clone_armor_41_chestplate": "Clone Trooper 41st Chestplate",
+      "item.star_wars_expansion.ee_3": "EE-3",
+      "item.star_wars_expansion.rodian_default_spawn_egg": "Rodian Spawn Egg",
+      "item.star_wars_expansion.kyber_crystal_red": "§cRed Kyber Crystal ",
+      "entity.star_wars_expansion.krykna": "Krykna",
+      "item.star_wars_expansion.twi_lek_pink_spawn_egg": "Twi\u0027Lek Spawn Egg",
+      "item.star_wars_expansion.clone_armor_212_chestplate": "Clone Trooper 212st Chestplate",
+      "item.star_wars_expansion.electronic_board": "Electronic Board",
+      "item.star_wars_expansion.atst_spawn_egg": "AT-ST Spawn Egg",
+      "block.star_wars_expansion.tatooine_sandstone_wall": "Tatooine Sandstone Wall",
+      "entity.star_wars_expansion.astromech_droid_red": "Astromech Droid Red",
+      "block.star_wars_expansion.modern_bookshelf": "Modern Bookshelf",
+      "key.star_wars_expansion.spaceship_move_key": "Spaceship Move ",
+      "block.star_wars_expansion.metal_trapdoor": "Metal Trapdoor",
+      "block.star_wars_expansion.control_panel": "Control Panel",
+      "item.star_wars_expansion.t_3_m_4_spawn_egg": "T3-M4 Spawn Egg",
+      "item.star_wars_expansion.snowspeeder_spawn_egg": "Snowspeeder Spawn Egg",
+      "item.star_wars_expansion.atst_item": "AT-ST",
+      "block.star_wars_expansion.moisture_vaporator": "Moisture Vaporator",
+      "item_group.star_wars_expansion.droid_tab": "Star Wars Droids",
+      "item.star_wars_expansion.doonium_armor_chestplate": "§eDoonium Chesplate",
+      "subtitles.rodian_hurt": "",
+      "entity.star_wars_expansion.landspeeder": "Landspeeder",
+      "item.star_wars_expansion.sith_clothes_chestplate": "§cSith Clothes",
+      "entity.star_wars_expansion.protocol_droid_white": "Protocol Droid White",
+      "item.star_wars_expansion.krykna_string": "Krykna String",
+      "block.star_wars_expansion.aurodium_ore": "Hoth Stone",
+      "item.star_wars_expansion.westar_34": "Westar-34",
+      "item.star_wars_expansion.tc_14": "§eTC-14",
+      "entity.star_wars_expansion.x_wing": "X-Wing",
+      "item.star_wars_expansion.raw_bantha_meat": "Raw Bantha Meat",
+      "item.star_wars_expansion.kyber_crystal_blue": "§bBlue Kyber Crystal ",
+      "entity.star_wars_expansion.pirate_human": "Pirate",
+      "entity.star_wars_expansion.escape_pod": "Escape Pod",
+      "item.star_wars_expansion.computer_tip": "Computer Tip",
+      "item.star_wars_expansion.krykna_spawn_egg": "Krykna Spawn Egg",
+      "entity.minecraft.villager.star_wars_expansion.droid_trader": "Droid Trader",
+      "item.star_wars_expansion.clone_armor_helmet": "Clone Trooper Helmet",
+      "item.star_wars_expansion.tusken_raider_spawn_egg": "Tusken Spawn Egg",
+      "item.star_wars_expansion.beskar_armor_leggings": "§cBeskar Leggings",
+      "item.star_wars_expansion.b_1": "§eBattle Droid B1",
+      "item.star_wars_expansion.twi_lek_blue_spawn_egg": "Twi\u0027Lek Spawn Egg",
+      "item.star_wars_expansion.human_spawn_egg": "Human Spawn Egg",
+      "item.star_wars_expansion.clone_armor_leggings": "Clone Trooper Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "star_wars_expansion",
+    "modName": "Star Wars Expansion",
+    "version": "1.2.0",
+    "author": "FazBrick Studios",
+    "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "https://www.curseforge.com/members/mrfazcraft/projects",
+    "modElementsPackage": "net.mcreator.starwarsexpansion"
+  },
+  "mcreatorVersion": 202400452410
+}

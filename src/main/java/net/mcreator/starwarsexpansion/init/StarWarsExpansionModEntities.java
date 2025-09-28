@@ -35,14 +35,20 @@ import net.mcreator.starwarsexpansion.entity.RodianBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidWhiteEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidGoldEntity;
+import net.mcreator.starwarsexpansion.entity.PirateWestEntity;
+import net.mcreator.starwarsexpansion.entity.PirateLizardEntity;
+import net.mcreator.starwarsexpansion.entity.PirateHumanEntity;
+import net.mcreator.starwarsexpansion.entity.PirateEntity;
 import net.mcreator.starwarsexpansion.entity.MouseDroidEntity;
 import net.mcreator.starwarsexpansion.entity.LaserProjectileEntity;
 import net.mcreator.starwarsexpansion.entity.LandspeederEntity;
 import net.mcreator.starwarsexpansion.entity.KryknaEntity;
 import net.mcreator.starwarsexpansion.entity.JawaEntity;
 import net.mcreator.starwarsexpansion.entity.IthorianEntity;
+import net.mcreator.starwarsexpansion.entity.HuttEntity;
 import net.mcreator.starwarsexpansion.entity.HumanEntity;
 import net.mcreator.starwarsexpansion.entity.GonkDroidEntity;
+import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.EnemyLaserProjectileEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
@@ -168,6 +174,30 @@ public class StarWarsExpansionModEntities {
 			EntityType.Builder.<TauntaunSaddleEntity>of(TauntaunSaddleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TauntaunSaddleEntity::new)
 
 					.sized(1f, 2f));
+	public static final RegistryObject<EntityType<GamorreanEntity>> GAMORREAN = register("gamorrean",
+			EntityType.Builder.<GamorreanEntity>of(GamorreanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GamorreanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HuttEntity>> HUTT = register("hutt",
+			EntityType.Builder.<HuttEntity>of(HuttEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HuttEntity::new)
+
+					.sized(1f, 2.6f));
+	public static final RegistryObject<EntityType<PirateLizardEntity>> PIRATE_LIZARD = register("pirate_lizard",
+			EntityType.Builder.<PirateLizardEntity>of(PirateLizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PirateLizardEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PirateHumanEntity>> PIRATE_HUMAN = register("pirate_human",
+			EntityType.Builder.<PirateHumanEntity>of(PirateHumanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PirateHumanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PirateWestEntity>> PIRATE_WEST = register("pirate_west",
+			EntityType.Builder.<PirateWestEntity>of(PirateWestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PirateWestEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PirateEntity>> PIRATE = register("pirate",
+			EntityType.Builder.<PirateEntity>of(PirateEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PirateEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -213,6 +243,12 @@ public class StarWarsExpansionModEntities {
 			SnowspeederEntity.init();
 			TauntaunEntity.init();
 			TauntaunSaddleEntity.init();
+			GamorreanEntity.init();
+			HuttEntity.init();
+			PirateLizardEntity.init();
+			PirateHumanEntity.init();
+			PirateWestEntity.init();
+			PirateEntity.init();
 		});
 	}
 
@@ -253,5 +289,11 @@ public class StarWarsExpansionModEntities {
 		event.put(SNOWSPEEDER.get(), SnowspeederEntity.createAttributes().build());
 		event.put(TAUNTAUN.get(), TauntaunEntity.createAttributes().build());
 		event.put(TAUNTAUN_SADDLE.get(), TauntaunSaddleEntity.createAttributes().build());
+		event.put(GAMORREAN.get(), GamorreanEntity.createAttributes().build());
+		event.put(HUTT.get(), HuttEntity.createAttributes().build());
+		event.put(PIRATE_LIZARD.get(), PirateLizardEntity.createAttributes().build());
+		event.put(PIRATE_HUMAN.get(), PirateHumanEntity.createAttributes().build());
+		event.put(PIRATE_WEST.get(), PirateWestEntity.createAttributes().build());
+		event.put(PIRATE.get(), PirateEntity.createAttributes().build());
 	}
 }

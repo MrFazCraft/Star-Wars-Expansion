@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "star_wars_expansion:block/grid_metal_block",
+    "particle": "star_wars_expansion:block/grid_metal_block"
+  },
+  "render_type": "cutout"
+}

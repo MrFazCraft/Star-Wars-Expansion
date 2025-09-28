@@ -23,13 +23,19 @@ import net.mcreator.starwarsexpansion.entity.RodianBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidWhiteEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidGoldEntity;
+import net.mcreator.starwarsexpansion.entity.PirateWestEntity;
+import net.mcreator.starwarsexpansion.entity.PirateLizardEntity;
+import net.mcreator.starwarsexpansion.entity.PirateHumanEntity;
+import net.mcreator.starwarsexpansion.entity.PirateEntity;
 import net.mcreator.starwarsexpansion.entity.MouseDroidEntity;
 import net.mcreator.starwarsexpansion.entity.LandspeederEntity;
 import net.mcreator.starwarsexpansion.entity.KryknaEntity;
 import net.mcreator.starwarsexpansion.entity.JawaEntity;
 import net.mcreator.starwarsexpansion.entity.IthorianEntity;
+import net.mcreator.starwarsexpansion.entity.HuttEntity;
 import net.mcreator.starwarsexpansion.entity.HumanEntity;
 import net.mcreator.starwarsexpansion.entity.GonkDroidEntity;
+import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
@@ -284,6 +290,48 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof TauntaunSaddleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof GamorreanEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof HuttEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof PirateLizardEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof PirateHumanEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof PirateWestEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof PirateEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

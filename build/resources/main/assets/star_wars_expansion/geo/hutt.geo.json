@@ -1,0 +1,63 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hutt",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "hutt",
+					"pivot": [7, 0, -7],
+					"cubes": [
+						{"origin": [-14, 0, -13], "size": [28, 25, 26], "uv": [0, 0]},
+						{"origin": [-13, 25, -10], "size": [26, 10, 20], "uv": [0, 51]},
+						{"origin": [-13, 35, -10], "size": [26, 6, 20], "uv": [0, 81]},
+						{"origin": [-11, 41, -10], "size": [22, 4, 20], "uv": [92, 51]},
+						{"origin": [-10, 45, -10], "size": [20, 2, 20], "uv": [0, 107]},
+						{"origin": [-8, 47, -10], "size": [16, 6, 20], "uv": [80, 107]},
+						{"origin": [-5, 53, -8], "size": [10, 2, 15], "uv": [108, 23]},
+						{"origin": [-11, 0, -15], "size": [22, 21, 2], "uv": [108, 0]}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "hutt",
+					"pivot": [0, 31.63465, -2.52415],
+					"cubes": [
+						{"origin": [13, 27, -7], "size": [6, 8, 8], "uv": [46, 129]},
+						{"origin": [13, 18, -5], "size": [5, 10, 5], "pivot": [16, 31, -3], "rotation": [-70, 0, 0], "uv": [128, 144]},
+						{"origin": [5, 18, -5], "size": [8, 6, 5], "pivot": [16, 31, -3], "rotation": [-70, 0, 0], "uv": [134, 133]},
+						{"origin": [-18, 18, -5], "size": [5, 10, 5], "pivot": [-16, 31, -3], "rotation": [-70, 0, 0], "uv": [46, 145]},
+						{"origin": [-13, 18, -5], "size": [8, 6, 5], "pivot": [-16, 31, -3], "rotation": [-70, 0, 0], "uv": [102, 144]},
+						{"origin": [-19, 27, -7], "size": [6, 8, 8], "uv": [74, 133]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "hutt",
+					"pivot": [-0.25, 40.25, -11],
+					"cubes": [
+						{"origin": [-5, 41, -12], "size": [9, 3, 2], "uv": [0, 148]},
+						{"origin": [-11, 35, -12], "size": [22, 6, 2], "uv": [108, 40]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "hutt",
+					"pivot": [-13.75, 5.5, -2.75],
+					"cubes": [
+						{"origin": [-32, 0, -11], "size": [20, 16, 16], "inflate": 0.01, "pivot": [-36.75, 5.5, -2.75], "rotation": [0, -10, 0], "uv": [92, 75]},
+						{"origin": [-46, 0, -7], "size": [14, 10, 9], "pivot": [-36.75, 5.5, -2.75], "rotation": [0, -10, 0], "uv": [0, 129]},
+						{"origin": [-57, 0, -5], "size": [11, 6, 5], "pivot": [-36.75, 5.5, -2.75], "rotation": [0, -10, 0], "uv": [102, 133]}
+					]
+				}
+			]
+		}
+	]
+}

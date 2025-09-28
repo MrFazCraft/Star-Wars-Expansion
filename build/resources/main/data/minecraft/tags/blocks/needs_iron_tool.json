@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:grid_metal_block",
     "star_wars_expansion:modern_bookshelf",
     "star_wars_expansion:cantina_light",
     "star_wars_expansion:modern_slab",

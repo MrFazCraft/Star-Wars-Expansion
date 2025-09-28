@@ -2,34 +2,50 @@ package net.mcreator.starwarsexpansion.procedures;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceKey;
-
-import net.mcreator.starwarsexpansion.entity.XWingEntity;
+import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
+import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
+import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
+import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
+import net.minecraft.core.BlockPos;
 
 public class TravelEarthProcedure {
-    public static void execute(Entity entity) {
-        if (entity == null)
-            return;
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
 
-        if (entity instanceof ServerPlayer player && player.getVehicle() instanceof XWingEntity vehicle) {
-            ResourceKey<Level> destination = Level.OVERWORLD;
+		if (entity.isPassenger() && entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
+			Entity vehicle = entity.getVehicle(); // el X-Wing
+			if (vehicle != null) {
+				ResourceKey<Level> destinationType = Level.OVERWORLD; // Tierra (Overworld)
+				if (_player.level().dimension() == destinationType)
+					return;
 
-            if (player.level().dimension() != destination) {
-                ServerLevel nextLevel = player.server.getLevel(destination);
-                if (nextLevel != null) {
-                    // Teletransportar el X-Wing
-                    Entity newVehicle = vehicle.changeDimension(nextLevel);
-                    if (newVehicle != null) {
-                        // Teletransportar el jugador
-                        player.changeDimension(nextLevel);
+				ServerLevel nextLevel = _player.server.getLevel(destinationType);
+				if (nextLevel != null) {
+					// Teletransportar vehículo primero
+					Entity newVehicle = vehicle.getType().create(nextLevel);
+					if (newVehicle != null) {
+						newVehicle.moveTo(_player.getX(), _player.getY(), _player.getZ(), vehicle.getYRot(), vehicle.getXRot());
+						nextLevel.addFreshEntity(newVehicle);
 
-                        // Volver a montar al jugador en el X-Wing
-                        player.startRiding(newVehicle, true);
-                    }
-                }
-            }
-        }
-    }
+						// Teletransportar jugador
+						_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
+						_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
+						_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
+						for (MobEffectInstance _effectinstance : _player.getActiveEffects())
+							_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance));
+						_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
+
+						// Volver a montar al jugador en el vehículo
+						_player.startRiding(newVehicle, true);
+					}
+				}
+			}
+		}
+	}
 }
+

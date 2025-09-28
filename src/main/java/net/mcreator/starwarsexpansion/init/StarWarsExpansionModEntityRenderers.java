@@ -28,14 +28,20 @@ import net.mcreator.starwarsexpansion.client.renderer.RodianBlueRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidWhiteRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidPinkRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidGoldRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.PirateWestRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.PirateRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.PirateLizardRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.PirateHumanRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.MouseDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.LaserProjectileRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.LandspeederRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.KryknaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.JawaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.IthorianRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.HuttRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.HumanRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.GonkDroidRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.GamorreanRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EscapePodRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EnemyLaserProjectileRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BrokenEscapePodRenderer;
@@ -88,5 +94,11 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.SNOWSPEEDER.get(), SnowspeederRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.TAUNTAUN.get(), TauntaunRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.TAUNTAUN_SADDLE.get(), TauntaunSaddleRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.GAMORREAN.get(), GamorreanRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.HUTT.get(), HuttRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_LIZARD.get(), PirateLizardRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_HUMAN.get(), PirateHumanRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_WEST.get(), PirateWestRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE.get(), PirateRenderer::new);
 	}
 }

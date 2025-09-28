@@ -143,6 +143,9 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.ARGES_FROG_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.HUMAN_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.TAUNTAUN_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.GAMORREAN_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.HUTT_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.PIRATE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());
@@ -169,6 +172,8 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModBlocks.HOTH_SNOW.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.HOTH_STONE.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.AURODIUM_ORE.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.METAL_TRAPDOOR.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.GRID_METAL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE_2.get().asItem());

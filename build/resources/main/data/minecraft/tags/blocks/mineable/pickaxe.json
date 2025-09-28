@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:grid_metal_block",
+    "star_wars_expansion:metal_trapdoor",
     "star_wars_expansion:aurodium_ore",
     "star_wars_expansion:hoth_stone",
     "star_wars_expansion:copper_sandstone_ore",
