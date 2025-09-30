@@ -122,7 +122,7 @@ key_key.star_wars_expansion.double_jump_key:key.keyboard.space
 key_key.star_wars_expansion.spaceship_move_key:key.keyboard.w
 key_key.star_wars_expansion.spaceship_shoot_key:key.keyboard.g
 key_key.star_wars_expansion.spaceship_anchor_gui_key:key.keyboard.z
-soundCategory_master:0.20860927152317882
+soundCategory_master:0.5011037527593818
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

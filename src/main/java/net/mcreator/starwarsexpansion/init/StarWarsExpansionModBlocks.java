@@ -34,13 +34,16 @@ import net.mcreator.starwarsexpansion.block.MetalTrapdoorBlock;
 import net.mcreator.starwarsexpansion.block.MetalStairsBlock;
 import net.mcreator.starwarsexpansion.block.MetalSlabBlock;
 import net.mcreator.starwarsexpansion.block.MetalBlockBlock;
+import net.mcreator.starwarsexpansion.block.KoltoTankBlock;
 import net.mcreator.starwarsexpansion.block.HothStoneBlock;
 import net.mcreator.starwarsexpansion.block.HothSnowBlock;
 import net.mcreator.starwarsexpansion.block.HolocronBlock;
 import net.mcreator.starwarsexpansion.block.GridMetalBlockBlock;
 import net.mcreator.starwarsexpansion.block.DooniumOreBlock;
 import net.mcreator.starwarsexpansion.block.CopperSandstoneOreBlock;
+import net.mcreator.starwarsexpansion.block.ControlStationBlock;
 import net.mcreator.starwarsexpansion.block.ControlPanelBlock;
+import net.mcreator.starwarsexpansion.block.ComputerStationBlock;
 import net.mcreator.starwarsexpansion.block.CantinaLightBlock;
 import net.mcreator.starwarsexpansion.block.AurodiumOreBlock;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
@@ -80,6 +83,9 @@ public class StarWarsExpansionModBlocks {
 	public static final RegistryObject<Block> AURODIUM_ORE = REGISTRY.register("aurodium_ore", () -> new AurodiumOreBlock());
 	public static final RegistryObject<Block> METAL_TRAPDOOR = REGISTRY.register("metal_trapdoor", () -> new MetalTrapdoorBlock());
 	public static final RegistryObject<Block> GRID_METAL_BLOCK = REGISTRY.register("grid_metal_block", () -> new GridMetalBlockBlock());
+	public static final RegistryObject<Block> COMPUTER_STATION = REGISTRY.register("computer_station", () -> new ComputerStationBlock());
+	public static final RegistryObject<Block> CONTROL_STATION = REGISTRY.register("control_station", () -> new ControlStationBlock());
+	public static final RegistryObject<Block> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> new KoltoTankBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,17 @@
+{
+  "name": "star_wars_expansion:hoth_base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "star_wars_expansion:hothbase",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

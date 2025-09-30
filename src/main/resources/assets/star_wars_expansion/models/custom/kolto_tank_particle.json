@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_expansion:displaysettings/koltotank",
+  "textures": {
+    "particle": "star_wars_expansion:block/station_break"
+  }
+}

@@ -98,8 +98,11 @@ import net.mcreator.starwarsexpansion.item.ATSTItemItem;
 import net.mcreator.starwarsexpansion.block.display.WorkspaceBenchDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.StatueDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.MoistureVaporatorDisplayItem;
+import net.mcreator.starwarsexpansion.block.display.KoltoTankDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.HolocronDisplayItem;
+import net.mcreator.starwarsexpansion.block.display.ControlStationDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.ControlPanelDisplayItem;
+import net.mcreator.starwarsexpansion.block.display.ComputerStationDisplayItem;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
 public class StarWarsExpansionModItems {
@@ -259,6 +262,11 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> METAL_TRAPDOOR = block(StarWarsExpansionModBlocks.METAL_TRAPDOOR);
 	public static final RegistryObject<Item> GRID_METAL_BLOCK = block(StarWarsExpansionModBlocks.GRID_METAL_BLOCK);
 	public static final RegistryObject<Item> PIRATE_SPAWN_EGG = REGISTRY.register("pirate_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.PIRATE, -4671429, -10840260, new Item.Properties()));
+	public static final RegistryObject<Item> COMPUTER_STATION = REGISTRY.register(StarWarsExpansionModBlocks.COMPUTER_STATION.getId().getPath(),
+			() -> new ComputerStationDisplayItem(StarWarsExpansionModBlocks.COMPUTER_STATION.get(), new Item.Properties()));
+	public static final RegistryObject<Item> CONTROL_STATION = REGISTRY.register(StarWarsExpansionModBlocks.CONTROL_STATION.getId().getPath(),
+			() -> new ControlStationDisplayItem(StarWarsExpansionModBlocks.CONTROL_STATION.get(), new Item.Properties()));
+	public static final RegistryObject<Item> KOLTO_TANK = REGISTRY.register(StarWarsExpansionModBlocks.KOLTO_TANK.getId().getPath(), () -> new KoltoTankDisplayItem(StarWarsExpansionModBlocks.KOLTO_TANK.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

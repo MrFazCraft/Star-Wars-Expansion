@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:kolto_tank",
+    "star_wars_expansion:control_station",
+    "star_wars_expansion:computer_station",
     "star_wars_expansion:grid_metal_block",
     "star_wars_expansion:metal_trapdoor",
     "star_wars_expansion:aurodium_ore",

@@ -5012,6 +5012,97 @@
           }
         ]
       }
+    },
+    {
+      "name": "PirateShip",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_ship",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/pirate_ship.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/pirate_ship.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/pirate_ship.json"
+        ]
+      }
+    },
+    {
+      "name": "ComputerStation",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_station",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/ComputerStationDisplayItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ComputerStationDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ComputerStationBlock.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/computer_station.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/computer_station.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ComputerStationTileRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ComputerStationDisplayModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ComputerStationBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/ComputerStationTileEntity.java",
+          "src/main/resources/assets/star_wars_expansion/models/custom/computer_station_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "ControlStation",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_station",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/ControlStationDisplayItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ControlStationDisplayItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/control_station.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/ControlStationBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/ControlStationTileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ControlStationBlockModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/ControlStationDisplayModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/control_station.json",
+          "src/main/resources/assets/star_wars_expansion/models/custom/control_station_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/ControlStationTileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KoltoTank",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kolto_tank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/KoltoTankDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/KoltoTankTileRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/KoltoTankBlockModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/kolto_tank.json",
+          "src/main/resources/assets/star_wars_expansion/models/custom/kolto_tank_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/KoltoTankBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/KoltoTankDisplayItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/KoltoTankTileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/KoltoTankDisplayModel.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/kolto_tank.json"
+        ]
+      }
+    },
+    {
+      "name": "HothBase",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/hoth_base.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/hoth_base.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/hoth_base.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5279,6 +5370,9 @@
     "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:logs": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:KoltoTank",
+      "~CUSTOM:ControlStation",
+      "~CUSTOM:ComputerStation",
       "~CUSTOM:GridMetalBlock",
       "~CUSTOM:MetalTrapdoor",
       "~CUSTOM:AurodiumOre",
@@ -5313,6 +5407,9 @@
       "~CUSTOM:TatooineSandstoneSlab"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:KoltoTank",
+      "~CUSTOM:ControlStation",
+      "~CUSTOM:ComputerStation",
       "~CUSTOM:ControlPanel",
       "~CUSTOM:WorkspaceBench"
     ],
@@ -5351,8 +5448,8 @@
     "en_us": {
       "item.star_wars_expansion.mse_6": "§eMSE-6",
       "item.star_wars_expansion.rodian_green_spawn_egg": "Rodian Spawn Egg",
-      "block.star_wars_expansion.modern_crate_3": "Modern Crate",
       "item.star_wars_expansion.kyber_crystal_purple": "§5Purple Kyber Crystal ",
+      "block.star_wars_expansion.modern_crate_3": "Modern Crate",
       "item.star_wars_expansion.yellow_lightsaber_closed": "§eYellow Lightsaber",
       "item.star_wars_expansion.clone_armor_212_helmet": "Clone Trooper 212st Helmet",
       "block.star_wars_expansion.modern_crate_4": "Modern Crate",
@@ -5361,24 +5458,24 @@
       "block.star_wars_expansion.modern_pillar": "Modern Pillar",
       "item.star_wars_expansion.arges_frog_spawn_egg": "Arges Frog Spawn Egg",
       "gui.star_wars_expansion.spaceship_overlay.label_z": "Z",
-      "item.star_wars_expansion.krykna_leg": "Krykna Leg",
       "item.star_wars_expansion.pirate_lizard_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.krykna_leg": "Krykna Leg",
       "subtitles.rodian_idle": "",
       "item.star_wars_expansion.bantha_milk": "Bantha Milk Bucket",
       "gui.star_wars_expansion.planet_anchor_gui.label_tatooine": "Tatooine",
       "item.star_wars_expansion.bantha_spawn_egg": "Bantha Spawn Egg",
       "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
       "gui.star_wars_expansion.planet_anchor_gui.label_earth": "Earth",
-      "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
-      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
       "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
-      "block.star_wars_expansion.tatooine_door": "Tatooine Door",
-      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
+      "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
       "item.star_wars_expansion.jogan": "Jogan",
-      "item.star_wars_expansion.pirate_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "block.star_wars_expansion.tatooine_door": "Tatooine Door",
       "key.star_wars_expansion.spaceship_shoot_key": "Spaceship Shoot ",
-      "item.star_wars_expansion.vibroblade": "§eVibroblade",
+      "item.star_wars_expansion.pirate_spawn_egg": "Pirate Spawn Egg",
       "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
+      "item.star_wars_expansion.vibroblade": "§eVibroblade",
       "entity.star_wars_expansion.protocol_droid_pink": "Protocol Droid Pink",
       "block.star_wars_expansion.metal_slab": "Metal Slab",
       "entity.star_wars_expansion.gamorrean": "Gamorrean",
@@ -5396,8 +5493,9 @@
       "item.star_wars_expansion.tauntaun_saddle_spawn_egg": "Tauntaun Spawn Egg",
       "biome.star_wars_expansion.tatooine_desert": "Tatooine Desert",
       "item.star_wars_expansion.astromech_droid_blue_spawn_egg": "Astromech Droid Blue Spawn Egg",
-      "item.star_wars_expansion.banhta_horn": "Bantha Horn",
+      "block.star_wars_expansion.kolto_tank": "Kolto Tank",
       "block.star_wars_expansion.metal_stairs": "Metal Stairs",
+      "item.star_wars_expansion.banhta_horn": "Bantha Horn",
       "entity.star_wars_expansion.astromech_droid_pink": "Astromech Droid Pink",
       "subtitles.rodian_death": "",
       "item.star_wars_expansion.kyber_crystal_yellow": "§eYellow Kyber Crystal ",
@@ -5444,6 +5542,7 @@
       "item.star_wars_expansion.hutt_spawn_egg": "Hutt Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_hoth": "Hoth",
       "item.star_wars_expansion.t_3_m_4_item": "§eT3-M4",
+      "block.star_wars_expansion.control_station": "Control Station",
       "subtitles.jawa_death": "",
       "entity.star_wars_expansion.snowspeeder": "Snowspeeder",
       "block.star_wars_expansion.tatooine_sandstone": "Tatooine Sandstone",
@@ -5464,6 +5563,7 @@
       "entity.star_wars_expansion.tie_fighter": "TIE-Fighter",
       "entity.star_wars_expansion.rodian_default": "Rodian",
       "item.star_wars_expansion.cooked_bantha_meat": "Cooked Bantha Meat",
+      "block.star_wars_expansion.computer_station": "Computer Station",
       "block.star_wars_expansion.hoth_stone": "Hoth Stone",
       "item.star_wars_expansion.tauntaun_leather": "Tauntaun Leather",
       "entity.star_wars_expansion.jawa": "Jawa",
@@ -5622,7 +5722,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",

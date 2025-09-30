@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:kolto_tank",
+    "star_wars_expansion:control_station",
+    "star_wars_expansion:computer_station",
     "star_wars_expansion:control_panel",
     "star_wars_expansion:workspace_bench"
   ]

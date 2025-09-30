@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.controlstation",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "controlstation",
+					"pivot": [0, 26.05685, -1.66274],
+					"cubes": [
+						{"origin": [-8, 0, 0], "size": [16, 48, 8], "uv": [0, 0]},
+						{"origin": [-8, 12, -9], "size": [16, 4, 9], "uv": [48, 17]},
+						{"origin": [-8, 40, -9], "size": [16, 8, 9], "uv": [48, 0]},
+						{"origin": [-8, 32, 7], "size": [16, 12, 6], "inflate": -0.01, "pivot": [0, 24, 4], "rotation": [45, 0, 0], "uv": [48, 30]},
+						{"origin": [-8, 4, 7], "size": [16, 12, 6], "inflate": -0.01, "pivot": [0, -4, 4], "rotation": [45, 0, 0], "uv": [48, 48]}
+					]
+				}
+			]
+		}
+	]
+}

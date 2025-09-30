@@ -14,8 +14,11 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.starwarsexpansion.block.entity.WorkspaceBenchTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.StatueTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.MoistureVaporatorTileEntity;
+import net.mcreator.starwarsexpansion.block.entity.KoltoTankTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.HolocronTileEntity;
+import net.mcreator.starwarsexpansion.block.entity.ControlStationTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.ControlPanelTileEntity;
+import net.mcreator.starwarsexpansion.block.entity.ComputerStationTileEntity;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
 public class StarWarsExpansionModBlockEntities {
@@ -28,6 +31,11 @@ public class StarWarsExpansionModBlockEntities {
 			() -> BlockEntityType.Builder.of(ControlPanelTileEntity::new, StarWarsExpansionModBlocks.CONTROL_PANEL.get()).build(null));
 	public static final RegistryObject<BlockEntityType<HolocronTileEntity>> HOLOCRON = REGISTRY.register("holocron", () -> BlockEntityType.Builder.of(HolocronTileEntity::new, StarWarsExpansionModBlocks.HOLOCRON.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StatueTileEntity>> STATUE = REGISTRY.register("statue", () -> BlockEntityType.Builder.of(StatueTileEntity::new, StarWarsExpansionModBlocks.STATUE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ComputerStationTileEntity>> COMPUTER_STATION = REGISTRY.register("computer_station",
+			() -> BlockEntityType.Builder.of(ComputerStationTileEntity::new, StarWarsExpansionModBlocks.COMPUTER_STATION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ControlStationTileEntity>> CONTROL_STATION = REGISTRY.register("control_station",
+			() -> BlockEntityType.Builder.of(ControlStationTileEntity::new, StarWarsExpansionModBlocks.CONTROL_STATION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<KoltoTankTileEntity>> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> BlockEntityType.Builder.of(KoltoTankTileEntity::new, StarWarsExpansionModBlocks.KOLTO_TANK.get()).build(null));
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

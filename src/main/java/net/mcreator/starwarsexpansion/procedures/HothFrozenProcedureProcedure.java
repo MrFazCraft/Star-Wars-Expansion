@@ -34,7 +34,7 @@ public class HothFrozenProcedureProcedure {
 		if (entity == null)
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("star_wars_expansion:hoth_plains"))) {
-			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == StarWarsExpansionModItems.SNOW_SUIT_LEGGINGS.get()
+			if (entity.isPassenger() || (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == StarWarsExpansionModItems.SNOW_SUIT_LEGGINGS.get()
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsExpansionModItems.SNOW_SUIT_CHESTPLATE.get()
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == StarWarsExpansionModItems.SNOW_SUIT_HELMET.get()) {
 				entity.setTicksFrozen(0);

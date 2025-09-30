@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_expansion:displaysettings/computerstation",
+  "textures": {
+    "particle": "star_wars_expansion:block/station_break"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "star_wars_expansion:hoth_base",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 10,
+    "salt": 341289181
+  }
+}
