@@ -15,6 +15,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.starwarsexpansion.item.YellowLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.YellowDoubleLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.XWingItemItem;
 import net.mcreator.starwarsexpansion.item.Westar34Item;
 import net.mcreator.starwarsexpansion.item.VibrobladeItem;
@@ -36,12 +37,14 @@ import net.mcreator.starwarsexpansion.item.SaberEmitterItem;
 import net.mcreator.starwarsexpansion.item.RubberItem;
 import net.mcreator.starwarsexpansion.item.ReparationKitItem;
 import net.mcreator.starwarsexpansion.item.RedLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.RedDoubleLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.RawBanthaMeatItem;
 import net.mcreator.starwarsexpansion.item.R4P17Item;
 import net.mcreator.starwarsexpansion.item.R2KTItem;
 import net.mcreator.starwarsexpansion.item.R2D2Item;
 import net.mcreator.starwarsexpansion.item.QuadaniumIngotItem;
 import net.mcreator.starwarsexpansion.item.PurpleLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.PurpleDoubleLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.PlastoidItem;
 import net.mcreator.starwarsexpansion.item.MeiloorunItem;
 import net.mcreator.starwarsexpansion.item.MSE6Item;
@@ -63,6 +66,7 @@ import net.mcreator.starwarsexpansion.item.JediTempleGuardArmorItem;
 import net.mcreator.starwarsexpansion.item.InterfaceBandItem;
 import net.mcreator.starwarsexpansion.item.I82Item;
 import net.mcreator.starwarsexpansion.item.GreenLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.GreenDoubleLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.GrayJediClothesItem;
 import net.mcreator.starwarsexpansion.item.GrandMasterJediClothesItem;
 import net.mcreator.starwarsexpansion.item.GalacticCreditItem;
@@ -72,6 +76,11 @@ import net.mcreator.starwarsexpansion.item.GNKItem;
 import net.mcreator.starwarsexpansion.item.EscapePodItemItem;
 import net.mcreator.starwarsexpansion.item.ElectronicBoardItem;
 import net.mcreator.starwarsexpansion.item.EE3Item;
+import net.mcreator.starwarsexpansion.item.DoubleLightsaberYellowItem;
+import net.mcreator.starwarsexpansion.item.DoubleLightsaberRedItem;
+import net.mcreator.starwarsexpansion.item.DoubleLightsaberPurpleItem;
+import net.mcreator.starwarsexpansion.item.DoubleLightsaberGreenItem;
+import net.mcreator.starwarsexpansion.item.DoubleLightsaberGeoItem;
 import net.mcreator.starwarsexpansion.item.DooniumIngotItem;
 import net.mcreator.starwarsexpansion.item.DooniumArmorItem;
 import net.mcreator.starwarsexpansion.item.DL44Item;
@@ -84,6 +93,7 @@ import net.mcreator.starwarsexpansion.item.CloneArmor212Item;
 import net.mcreator.starwarsexpansion.item.C3POItem;
 import net.mcreator.starwarsexpansion.item.BrownJediClothesItem;
 import net.mcreator.starwarsexpansion.item.BlueLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.BlueDoubleLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.BlasterE11Item;
 import net.mcreator.starwarsexpansion.item.BlackJediClothesItem;
 import net.mcreator.starwarsexpansion.item.BeskarIngotItem;
@@ -267,6 +277,16 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> CONTROL_STATION = REGISTRY.register(StarWarsExpansionModBlocks.CONTROL_STATION.getId().getPath(),
 			() -> new ControlStationDisplayItem(StarWarsExpansionModBlocks.CONTROL_STATION.get(), new Item.Properties()));
 	public static final RegistryObject<Item> KOLTO_TANK = REGISTRY.register(StarWarsExpansionModBlocks.KOLTO_TANK.getId().getPath(), () -> new KoltoTankDisplayItem(StarWarsExpansionModBlocks.KOLTO_TANK.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLUE_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("blue_double_lightsaber_closed", () -> new BlueDoubleLightsaberClosedItem());
+	public static final RegistryObject<Item> DOUBLE_LIGHTSABER_GEO = REGISTRY.register("double_lightsaber_geo", () -> new DoubleLightsaberGeoItem());
+	public static final RegistryObject<Item> DOUBLE_LIGHTSABER_RED = REGISTRY.register("double_lightsaber_red", () -> new DoubleLightsaberRedItem());
+	public static final RegistryObject<Item> DOUBLE_LIGHTSABER_GREEN = REGISTRY.register("double_lightsaber_green", () -> new DoubleLightsaberGreenItem());
+	public static final RegistryObject<Item> DOUBLE_LIGHTSABER_YELLOW = REGISTRY.register("double_lightsaber_yellow", () -> new DoubleLightsaberYellowItem());
+	public static final RegistryObject<Item> DOUBLE_LIGHTSABER_PURPLE = REGISTRY.register("double_lightsaber_purple", () -> new DoubleLightsaberPurpleItem());
+	public static final RegistryObject<Item> RED_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("red_double_lightsaber_closed", () -> new RedDoubleLightsaberClosedItem());
+	public static final RegistryObject<Item> GREEN_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("green_double_lightsaber_closed", () -> new GreenDoubleLightsaberClosedItem());
+	public static final RegistryObject<Item> YELLOW_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("yellow_double_lightsaber_closed", () -> new YellowDoubleLightsaberClosedItem());
+	public static final RegistryObject<Item> PURPLE_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("purple_double_lightsaber_closed", () -> new PurpleDoubleLightsaberClosedItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -5103,6 +5103,546 @@
           "src/main/resources/data/star_wars_expansion/worldgen/structure/hoth_base.json"
         ]
       }
+    },
+    {
+      "name": "BlueDoubleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_double_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/blue_double_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/BlueDoubleLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberGeo",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_lightsaber_geo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DoubleLightsaberGeoItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/DoubleLightsaberGeoItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DoubleLightsaberGeoItemModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/double_lightsaber_geo.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueDoubleLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_double_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BlueDoubleLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberGeoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_geo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleLightsaberGeoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberRed",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_lightsaber_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/DoubleLightsaberRedItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DoubleLightsaberRedItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/double_lightsaber_red.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DoubleLightsaberRedItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberGreen",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_lightsaber_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/DoubleLightsaberGreenItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/double_lightsaber_green.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DoubleLightsaberGreenItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DoubleLightsaberGreenItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberYellow",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_lightsaber_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/DoubleLightsaberYellowItem.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DoubleLightsaberYellowItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/double_lightsaber_yellow.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DoubleLightsaberYellowItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberPurple",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "double_lightsaber_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/model/DoubleLightsaberPurpleItemModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/renderer/DoubleLightsaberPurpleItemRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/item/DoubleLightsaberPurpleItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/double_lightsaber_purple.json"
+        ]
+      }
+    },
+    {
+      "name": "RedDoubleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_double_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/RedDoubleLightsaberClosedItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/red_double_lightsaber_closed.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenDoubleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_double_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/green_double_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/GreenDoubleLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowDoubleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_double_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/yellow_double_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/YellowDoubleLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleDoubleLightsaberClosed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_double_lightsaber_closed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/purple_double_lightsaber_closed.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/PurpleDoubleLightsaberClosedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedDoubleLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_double_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/RedDoubleLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberRedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_red_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleLightsaberRedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberGreenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_green_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleLightsaberGreenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenDoubleLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_double_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/GreenDoubleLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowDoubleLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_double_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/YellowDoubleLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberYellowRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_yellow_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleLightsaberYellowRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberPurpleRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_purple_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/DoubleLightsaberPurpleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleDoubleLightsaberClosedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_double_lightsaber_closed_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/PurpleDoubleLightsaberClosedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/double_lightsaber_blue_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/double_lightsaber_red_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/double_lightsaber_green_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/double_lightsaber_yellow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleLightsaberPurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_lightsaber_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/recipes/double_lightsaber_purple_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5429,6 +5969,11 @@
       "~CUSTOM:TatooineSandstoneStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:PurpleDoubleLightsaberClosed",
+      "~CUSTOM:YellowDoubleLightsaberClosed",
+      "~CUSTOM:GreenDoubleLightsaberClosed",
+      "~CUSTOM:RedDoubleLightsaberClosed",
+      "~CUSTOM:BlueDoubleLightsaberClosed",
       "~CUSTOM:GaderffiiStick",
       "~CUSTOM:StunBaton",
       "~CUSTOM:Vibroblade",
@@ -5462,6 +6007,7 @@
       "item.star_wars_expansion.krykna_leg": "Krykna Leg",
       "subtitles.rodian_idle": "",
       "item.star_wars_expansion.bantha_milk": "Bantha Milk Bucket",
+      "item.star_wars_expansion.double_lightsaber_purple": "§5Purple Double Lightsaber",
       "gui.star_wars_expansion.planet_anchor_gui.label_tatooine": "Tatooine",
       "item.star_wars_expansion.bantha_spawn_egg": "Bantha Spawn Egg",
       "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
@@ -5505,6 +6051,7 @@
       "item.star_wars_expansion.brown_jedi_clothes_chestplate": "§eBrown Jedi Clothes",
       "entity.star_wars_expansion.arges_frog": "Arges Frog",
       "item.star_wars_expansion.snowspeeder_item": "Snowspeeder",
+      "item.star_wars_expansion.double_lightsaber_geo": "§bBlue Double Lightsaber",
       "subtitles.bantha_hurt": "",
       "item.star_wars_expansion.tie_fighter_item": "TIE-Fighter",
       "entity.star_wars_expansion.atst": "AT-ST",
@@ -5542,6 +6089,7 @@
       "item.star_wars_expansion.hutt_spawn_egg": "Hutt Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_hoth": "Hoth",
       "item.star_wars_expansion.t_3_m_4_item": "§eT3-M4",
+      "item.star_wars_expansion.purple_double_lightsaber_closed": "§5Purple Double Lightsaber",
       "block.star_wars_expansion.control_station": "Control Station",
       "subtitles.jawa_death": "",
       "entity.star_wars_expansion.snowspeeder": "Snowspeeder",
@@ -5575,6 +6123,7 @@
       "entity.star_wars_expansion.gonk_droid": "Gonk",
       "block.star_wars_expansion.quadanium_ore": "Quadanium Ore",
       "item.star_wars_expansion.arges_frog_leg": "Arges Frog Leg",
+      "item.star_wars_expansion.double_lightsaber_yellow": "§eYellow Double Lightsaber",
       "item.star_wars_expansion.green_lightsaber_closed": "§aGreen Lightsaber",
       "item.star_wars_expansion.red_lightsaber_closed": "§cRed Lightsaber",
       "item.star_wars_expansion.twi_lek_orange_spawn_egg": "Twi\u0027Lek Spawn Egg",
@@ -5648,12 +6197,14 @@
       "item.star_wars_expansion.c_3_po": "§eC-3PO",
       "item.star_wars_expansion.vibro_axe": "§eVibro-Axe",
       "subtitles.lightsaber_on": "",
+      "item.star_wars_expansion.double_lightsaber_green": "§aGreen Double Lightsaber",
       "gui.star_wars_expansion.spaceship_overlay.label_open_galaxy_map_z": "Open Galaxy Map  ( Z )",
       "subtitles.spaceship_idle": "",
       "item.star_wars_expansion.meiloorun": "Meiloorun",
       "item.star_wars_expansion.r_2_d_2": "§eR2-D2",
       "entity.star_wars_expansion.ithorian": "Ithorian",
       "item.star_wars_expansion.bantha_leather": "Bantha Leather",
+      "item.star_wars_expansion.yellow_double_lightsaber_closed": "§eYellow Double Lightsaber",
       "item.star_wars_expansion.snow_suit_chestplate": "Snow Suit",
       "subtitles.tusken_idle": "",
       "entity.star_wars_expansion.astromech_droid_blue": "Astromech Droid Blue",
@@ -5673,6 +6224,7 @@
       "item.star_wars_expansion.rodian_default_spawn_egg": "Rodian Spawn Egg",
       "item.star_wars_expansion.kyber_crystal_red": "§cRed Kyber Crystal ",
       "entity.star_wars_expansion.krykna": "Krykna",
+      "item.star_wars_expansion.double_lightsaber_red": "§cRed Double Lightsaber",
       "item.star_wars_expansion.twi_lek_pink_spawn_egg": "Twi\u0027Lek Spawn Egg",
       "item.star_wars_expansion.clone_armor_212_chestplate": "Clone Trooper 212st Chestplate",
       "item.star_wars_expansion.electronic_board": "Electronic Board",
@@ -5683,6 +6235,7 @@
       "key.star_wars_expansion.spaceship_move_key": "Spaceship Move ",
       "block.star_wars_expansion.metal_trapdoor": "Metal Trapdoor",
       "block.star_wars_expansion.control_panel": "Control Panel",
+      "item.star_wars_expansion.green_double_lightsaber_closed": "§aGreen Double Lightsaber",
       "item.star_wars_expansion.t_3_m_4_spawn_egg": "T3-M4 Spawn Egg",
       "item.star_wars_expansion.snowspeeder_spawn_egg": "Snowspeeder Spawn Egg",
       "item.star_wars_expansion.atst_item": "AT-ST",
@@ -5692,6 +6245,7 @@
       "item.star_wars_expansion.doonium_armor_chestplate": "§eDoonium Chesplate",
       "subtitles.rodian_hurt": "",
       "entity.star_wars_expansion.landspeeder": "Landspeeder",
+      "item.star_wars_expansion.red_double_lightsaber_closed": "§cRed Double Lightsaber",
       "item.star_wars_expansion.sith_clothes_chestplate": "§cSith Clothes",
       "entity.star_wars_expansion.protocol_droid_white": "Protocol Droid White",
       "item.star_wars_expansion.krykna_string": "Krykna String",
@@ -5702,6 +6256,7 @@
       "item.star_wars_expansion.raw_bantha_meat": "Raw Bantha Meat",
       "item.star_wars_expansion.kyber_crystal_blue": "§bBlue Kyber Crystal ",
       "entity.star_wars_expansion.pirate_human": "Pirate",
+      "item.star_wars_expansion.blue_double_lightsaber_closed": "§bBlue Double Lightsaber",
       "entity.star_wars_expansion.escape_pod": "Escape Pod",
       "item.star_wars_expansion.computer_tip": "Computer Tip",
       "item.star_wars_expansion.krykna_spawn_egg": "Krykna Spawn Egg",
@@ -5722,7 +6277,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",

@@ -1,0 +1,38 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "lightsaber_red",
+    "customModelName": "lightsaber_closed:default",
+    "blockingModelName": "Normal blocking",
+    "name": "§cRed Double Lightsaber",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ForceTab"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 25.0,
+    "enchantability": 2,
+    "damageVsEntity": 0.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "RedDoubleLightsaberClosedRightclicked"
+    }
+  }
+}

@@ -41,6 +41,11 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.JEDI_TEMPLE_GUARD_ARMOR_HELMET.get());
 				tabData.accept(StarWarsExpansionModItems.JEDI_TEMPLE_GUARD_ARMOR_CHESTPLATE.get());
 				tabData.accept(StarWarsExpansionModItems.JEDI_TEMPLE_GUARD_ARMOR_LEGGINGS.get());
+				tabData.accept(StarWarsExpansionModItems.BLUE_DOUBLE_LIGHTSABER_CLOSED.get());
+				tabData.accept(StarWarsExpansionModItems.RED_DOUBLE_LIGHTSABER_CLOSED.get());
+				tabData.accept(StarWarsExpansionModItems.GREEN_DOUBLE_LIGHTSABER_CLOSED.get());
+				tabData.accept(StarWarsExpansionModItems.YELLOW_DOUBLE_LIGHTSABER_CLOSED.get());
+				tabData.accept(StarWarsExpansionModItems.PURPLE_DOUBLE_LIGHTSABER_CLOSED.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> TROOPER_TAB = REGISTRY.register("trooper_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.trooper_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.CLONE_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {

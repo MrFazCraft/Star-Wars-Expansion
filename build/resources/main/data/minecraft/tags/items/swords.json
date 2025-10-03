@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:purple_double_lightsaber_closed",
+    "star_wars_expansion:yellow_double_lightsaber_closed",
+    "star_wars_expansion:green_double_lightsaber_closed",
+    "star_wars_expansion:red_double_lightsaber_closed",
+    "star_wars_expansion:blue_double_lightsaber_closed",
     "star_wars_expansion:gaderffii_stick",
     "star_wars_expansion:stun_baton",
     "star_wars_expansion:vibroblade",

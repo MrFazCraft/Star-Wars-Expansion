@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "star_wars_expansion:yellow_lightsaber_closed"
+    }
+  },
+  "result": {
+    "item": "star_wars_expansion:yellow_double_lightsaber_closed",
+    "count": 1
+  }
+}
