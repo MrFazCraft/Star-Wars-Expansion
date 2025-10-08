@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "star_wars_expansion:block/redwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "star_wars_expansion:block/redwood_log"
+    },
+    "axis=z": {
+      "model": "star_wars_expansion:block/redwood_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "star_wars_expansion:blocks/redwood_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "star_wars_expansion:redwood_log"
+        }
+      ]
+    }
+  ]
+}

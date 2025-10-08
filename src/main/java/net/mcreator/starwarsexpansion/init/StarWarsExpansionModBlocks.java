@@ -19,6 +19,7 @@ import net.mcreator.starwarsexpansion.block.TatooineSandBlock;
 import net.mcreator.starwarsexpansion.block.TatooineDoorBlock;
 import net.mcreator.starwarsexpansion.block.StatueBlock;
 import net.mcreator.starwarsexpansion.block.RubberOreBlock;
+import net.mcreator.starwarsexpansion.block.RedwoodLogBlock;
 import net.mcreator.starwarsexpansion.block.QuadaniumOreBlock;
 import net.mcreator.starwarsexpansion.block.MoistureVaporatorBlock;
 import net.mcreator.starwarsexpansion.block.ModernStairsBlock;
@@ -86,6 +87,7 @@ public class StarWarsExpansionModBlocks {
 	public static final RegistryObject<Block> COMPUTER_STATION = REGISTRY.register("computer_station", () -> new ComputerStationBlock());
 	public static final RegistryObject<Block> CONTROL_STATION = REGISTRY.register("control_station", () -> new ControlStationBlock());
 	public static final RegistryObject<Block> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> new KoltoTankBlock());
+	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

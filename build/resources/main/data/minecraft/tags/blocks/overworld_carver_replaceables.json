@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block",
     "minecraft:blue_ice",
     "star_wars_expansion:hoth_snow",
     "star_wars_expansion:tatooine_sandstone",

@@ -287,6 +287,7 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> GREEN_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("green_double_lightsaber_closed", () -> new GreenDoubleLightsaberClosedItem());
 	public static final RegistryObject<Item> YELLOW_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("yellow_double_lightsaber_closed", () -> new YellowDoubleLightsaberClosedItem());
 	public static final RegistryObject<Item> PURPLE_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("purple_double_lightsaber_closed", () -> new PurpleDoubleLightsaberClosedItem());
+	public static final RegistryObject<Item> REDWOOD_LOG = block(StarWarsExpansionModBlocks.REDWOOD_LOG);
 
 	// Start of user code block custom items
 	// End of user code block custom items

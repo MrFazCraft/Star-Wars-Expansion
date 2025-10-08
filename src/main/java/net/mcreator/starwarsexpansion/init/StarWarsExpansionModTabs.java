@@ -181,6 +181,7 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModBlocks.GRID_METAL_BLOCK.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.COMPUTER_STATION.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.CONTROL_STATION.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.REDWOOD_LOG.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE_2.get().asItem());
