@@ -151,6 +151,7 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.GAMORREAN_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.HUTT_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.PIRATE_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.EWOK_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());

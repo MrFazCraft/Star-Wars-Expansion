@@ -5726,6 +5726,35 @@
           "src/main/resources/data/star_wars_expansion/worldgen/structure/endor_redwood_tree.json"
         ]
       }
+    },
+    {
+      "name": "Ewok",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/ewok_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/EwokRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/EwokModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/EwokEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EwokTree",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/ewok_tree.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/ewok_tree.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/ewok_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5970,6 +5999,24 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "ewok_idle",
+      "files": [
+        "ewok_idle_1",
+        "ewok_idle_3",
+        "ewok_idle_4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ewok_hurt",
+      "files": [
+        "ewok_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -6100,6 +6147,7 @@
       "gui.star_wars_expansion.planet_anchor_gui.label_tatooine": "Tatooine",
       "item.star_wars_expansion.bantha_spawn_egg": "Bantha Spawn Egg",
       "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
+      "item.star_wars_expansion.ewok_spawn_egg": "Ewok Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_earth": "Earth",
       "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
       "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
@@ -6112,6 +6160,7 @@
       "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
       "item.star_wars_expansion.vibroblade": "§eVibroblade",
       "entity.star_wars_expansion.protocol_droid_pink": "Protocol Droid Pink",
+      "entity.star_wars_expansion.ewok": "Ewok",
       "block.star_wars_expansion.metal_slab": "Metal Slab",
       "entity.star_wars_expansion.gamorrean": "Gamorrean",
       "item.star_wars_expansion.tatooine_planet_anchor": "Tatooine Planet Anchor",
@@ -6255,6 +6304,7 @@
       "item.star_wars_expansion.rodian_red_spawn_egg": "Rodian Spawn Egg",
       "block.star_wars_expansion.tatooine_sand": "Tatooine Sand",
       "block.star_wars_expansion.copper_sandstone_ore": "Copper Ore",
+      "subtitles.ewok_idle": "",
       "item.star_wars_expansion.clone_armor_501_helmet": "Clone Trooper 501st Helmet",
       "entity.star_wars_expansion.protocol_droid_gold": "Protocol Droid Gold",
       "entity.star_wars_expansion.tusken_raider": "Tusken",
@@ -6289,6 +6339,7 @@
       "item.star_wars_expansion.vibro_axe": "§eVibro-Axe",
       "subtitles.lightsaber_on": "",
       "item.star_wars_expansion.double_lightsaber_green": "§aGreen Double Lightsaber",
+      "subtitles.ewok_hurt": "",
       "gui.star_wars_expansion.spaceship_overlay.label_open_galaxy_map_z": "Open Galaxy Map  ( Z )",
       "subtitles.spaceship_idle": "",
       "item.star_wars_expansion.meiloorun": "Meiloorun",
@@ -6368,7 +6419,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.4.1",
+    "version": "1.5",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",

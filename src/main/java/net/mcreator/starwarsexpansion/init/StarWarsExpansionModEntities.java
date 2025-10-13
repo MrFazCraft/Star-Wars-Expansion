@@ -49,6 +49,7 @@ import net.mcreator.starwarsexpansion.entity.HuttEntity;
 import net.mcreator.starwarsexpansion.entity.HumanEntity;
 import net.mcreator.starwarsexpansion.entity.GonkDroidEntity;
 import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
+import net.mcreator.starwarsexpansion.entity.EwokEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.EnemyLaserProjectileEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
@@ -198,6 +199,10 @@ public class StarWarsExpansionModEntities {
 			EntityType.Builder.<PirateEntity>of(PirateEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PirateEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<EwokEntity>> EWOK = register("ewok",
+			EntityType.Builder.<EwokEntity>of(EwokEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EwokEntity::new)
+
+					.sized(0.6f, 1.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -249,6 +254,7 @@ public class StarWarsExpansionModEntities {
 			PirateHumanEntity.init();
 			PirateWestEntity.init();
 			PirateEntity.init();
+			EwokEntity.init();
 		});
 	}
 
@@ -295,5 +301,6 @@ public class StarWarsExpansionModEntities {
 		event.put(PIRATE_HUMAN.get(), PirateHumanEntity.createAttributes().build());
 		event.put(PIRATE_WEST.get(), PirateWestEntity.createAttributes().build());
 		event.put(PIRATE.get(), PirateEntity.createAttributes().build());
+		event.put(EWOK.get(), EwokEntity.createAttributes().build());
 	}
 }

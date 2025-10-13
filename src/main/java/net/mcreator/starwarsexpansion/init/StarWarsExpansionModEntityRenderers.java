@@ -42,6 +42,7 @@ import net.mcreator.starwarsexpansion.client.renderer.HuttRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.HumanRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.GonkDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.GamorreanRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.EwokRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EscapePodRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EnemyLaserProjectileRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BrokenEscapePodRenderer;
@@ -100,5 +101,6 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_HUMAN.get(), PirateHumanRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_WEST.get(), PirateWestRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE.get(), PirateRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.EWOK.get(), EwokRenderer::new);
 	}
 }

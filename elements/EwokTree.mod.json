@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "ewoktree",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 20,
+    "separation": 11,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EndorForest"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

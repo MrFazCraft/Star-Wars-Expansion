@@ -262,5 +262,29 @@
         "stream": false
       }
     ]
+  },
+  "ewok_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:ewok_idle_1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:ewok_idle_3",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:ewok_idle_4",
+        "stream": false
+      }
+    ]
+  },
+  "ewok_hurt": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:ewok_hurt",
+        "stream": false
+      }
+    ]
   }
 }

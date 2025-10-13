@@ -36,6 +36,7 @@ import net.mcreator.starwarsexpansion.entity.HuttEntity;
 import net.mcreator.starwarsexpansion.entity.HumanEntity;
 import net.mcreator.starwarsexpansion.entity.GonkDroidEntity;
 import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
+import net.mcreator.starwarsexpansion.entity.EwokEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
@@ -332,6 +333,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof PirateEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof EwokEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
